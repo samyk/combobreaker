@@ -23,7 +23,7 @@
 
 # (U) Hardware
 
-[![Combo Breaker](http://samy.pl/combobreaker/sIMG_2920.JPG)](http://samy.pl/combobreaker/sIMG_2920.JPG)
+[![Combo Breaker](http://samy.pl/combobreaker/sIMG_2916.JPG)](http://samy.pl/combobreaker/sIMG_2916.JPG)
 
 ### [Arduino Nano](http://amzn.to/1QLlf23)
 **$15**: A [5V Arduino Nano](http://amzn.to/1QLlf23) microcontroller is used as the brains of the project.
@@ -61,7 +61,9 @@
 ### [Breadboard and Wires](http://amzn.to/1FfMb6e)
 **$9**: If you don't already have a breadboard and wires, they will kind of help.
 
-[![Combo Breaker Board](http://samy.pl/combobreaker/sIMG_2916.JPG)](http://samy.pl/combobreaker/sIMG_2916.JPG)
+[![Combo Breaker](http://samy.pl/combobreaker/sIMG_2875.JPG)](http://samy.pl/combobreaker/sIMG_2875.JPG)
+
+[![Combo Breaker](http://samy.pl/combobreaker/sIMG_2920.JPG)](http://samy.pl/combobreaker/sIMG_2920.JPG)
 
 -----
 
@@ -79,6 +81,8 @@ Combo Breaker's source code can be obtained in entirety from my github: <https:/
 I've included the 3D models on my github: <https://github.com/samyk/combobreaker>
  
 [![Combo Breaker 3D Print](http://samy.pl/combobreaker/smodel.png)](http://samy.pl/combobreaker/smodel.png)
+
+[![Combo Breaker](http://samy.pl/combobreaker/sIMG_2919.JPG)](http://samy.pl/combobreaker/sIMG_2919.JPG)
 
 -----
 
