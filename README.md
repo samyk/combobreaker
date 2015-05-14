@@ -11,7 +11,7 @@
 
 **Video demonstration / explanation:** [https://youtu.be/YcpSvHpbHQ4](https://youtu.be/YcpSvHpbHQ4)
 
-**Released:** May 15, 2015
+**Released:** May 14, 2015
 
 **Source code / 3D models:** [https://github.com/samyk/combobreaker](https://github.com/samyk/combobreaker)
 
