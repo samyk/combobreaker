@@ -1,8 +1,12 @@
-# [Combo Breaker](http://samy.pl/combobreaker/)
+# [C-C-C-C-Combo Breaker](http://samy.pl/combobreaker/)
 
 **[Combo Breaker](http://samy.pl/combobreaker/)** is a motorized, battery powered, 3D printed, Arduino-based combination lock cracking device. It is portable, open source, 3D models provided, and exploits a new technique I've discovered for [cracking combination locks in 8 attempts or less](https://www.youtube.com/watch?v=09UgmwtL12c), but in an even more exciting, automated fashion.
 
-**Live demonstration** and full details available in the video:
+By [@SamyKamkar](https://twitter.com/samykamkar)
+
+#### Follow me on [Twitter](https://twitter.com/samykamkar) or [join my mailing list](http://samy.pl/list/) to hear about future projects and research.
+
+**Live demonstration** and full details available in [the video](https://www.youtube.com/watch?v=YcpSvHpbHQ4):
 <a href="https://www.youtube.com/watch?v=YcpSvHpbHQ4" target="_blank"><img src="http://img.youtube.com/vi/YcpSvHpbHQ4/0.jpg" alt="KeySweeper" width="640" height="480" border="10" /></a>
 
 -----
@@ -58,6 +62,9 @@
 ### [Arctic Alumina Thermal Adehsive](http://amzn.to/1PkTakG)
 **$8**: Not required, but this is the thermal **adhesive** I use to **permanently** attach the heatsink to the stepper motor driver. Normal thermal paste has very little adhesion and kept falling off, so I switched from thermal paste to this thermal adhesive.
 
+### [Digital Calipers](http://amzn.to/1K8juex)
+**$17**: If you don't already have digital calipers for precise measurements to measure the lock, for example, these are inexpensive and accurate.
+
 ### [Breadboard and Wires](http://amzn.to/1FfMb6e)
 **$9**: If you don't already have a breadboard and wires, they will kind of help.
 
@@ -91,6 +98,8 @@ I've included the 3D models on my github: <https://github.com/samyk/combobreaker
 **Point of Contact:** [@SamyKamkar](https://twitter.com/samykamkar)
 
 You can see more of my projects at <http://samy.pl>.
+
+#### Follow me on [Twitter](https://twitter.com/samykamkar) or [join my mailing list](http://samy.pl/list/) to hear about future projects and research.
 
 Thanks!
 
