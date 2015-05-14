@@ -1,6 +1,6 @@
 # [Combo Breaker](http://samy.pl/combobreaker/)
 
-**[Combo Breaker](http://samy.pl/combobreaker/)** is a motorized, battery powered, 3D printed, Arduino-based combination lock cracking device. It is portable, open source, schematic and 3D models provided, and exploits a new technique I've discovered for [cracking combination locks in 8 attempts or less](https://www.youtube.com/watch?v=09UgmwtL12c), but in an even more exciting, automated fashion.
+**[Combo Breaker](http://samy.pl/combobreaker/)** is a motorized, battery powered, 3D printed, Arduino-based combination lock cracking device. It is portable, open source, 3D models provided, and exploits a new technique I've discovered for [cracking combination locks in 8 attempts or less](https://www.youtube.com/watch?v=09UgmwtL12c), but in an even more exciting, automated fashion.
 
 **Live demonstration** and full details available in the video:
 <a href="https://www.youtube.com/watch?v=YcpSvHpbHQ4" target="_blank"><img src="http://img.youtube.com/vi/YcpSvHpbHQ4/0.jpg" alt="KeySweeper" width="640" height="480" border="10" /></a>
@@ -13,7 +13,7 @@
 
 **Released:** May 15, 2015
 
-**Source code / schematic / 3D models:** [https://github.com/samyk/combobreaker](https://github.com/samyk/combobreaker)
+**Source code / 3D models:** [https://github.com/samyk/combobreaker](https://github.com/samyk/combobreaker)
 
 **Unit Cost:** < $100
 
