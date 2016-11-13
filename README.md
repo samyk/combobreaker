@@ -30,16 +30,16 @@ By [@SamyKamkar](https://twitter.com/samykamkar)
 [![Combo Breaker](http://samy.pl/combobreaker/sIMG_2916.JPG)](http://samy.pl/combobreaker/sIMG_2916.JPG)
 
 ### [Arduino Nano](http://amzn.to/1QLlf23)
-**$15**: A [5V Arduino Nano](http://amzn.to/1QLlf23) microcontroller is used as the brains of the project.
+**$12**: A [5V Arduino Nano](http://amzn.to/1QLlf23) microcontroller is used as the brains of the project.
 
 ### [Allegro A3967 / EasyDriver Stepper Driver](http://amzn.to/1A1Ovxl)
-**$8**: I originally used an A3967-based [EasyDriver](http://amzn.to/1A1Ovxl) which can drive a stepper motor up to 30V at 750mA. This is what precisely controls the dial.
+**$20**: I originally used an A3967-based [EasyDriver](http://amzn.to/1A1Ovxl) which can drive a stepper motor up to 30V at 750mA. This is what precisely controls the dial.
 
 ### or [Allegro A4988](http://amzn.to/1L3q7fK)
-**$13**: Instead of the EasyDriver, I upgraded to a smaller, yet more powerful stepper driver that can go up to 1 amp (1000mA).
+**$7**: Instead of the EasyDriver, I upgraded to a smaller, yet more powerful stepper driver that can go up to 1 amp (1000mA).
 
 ### [Stepper Motor](http://amzn.to/1FfLUQG)
-**$18**: You can use a normal stepper motor for the "simpler" version of the Combo Breaker build, however if you're working on creating the more advanced version, you'll need a double-shaft stepper motor like I liste below.
+**$30**: You can use a normal stepper motor for the "simpler" version of the Combo Breaker build, however if you're working on creating the more advanced version, you'll need a double-shaft stepper motor like I liste below.
 
 ### or [Double Shaft Stepper Motor](http://www.phidgets.com/products.php?product_id=3320)
 **$16**: This double shaft stepper motor allows you to build the more advanced Combo Breaker while employing an optical rotary encoder on the back to detect the position of the stepper when the dial stops turning (which is part of the exploit employed).
@@ -51,22 +51,22 @@ By [@SamyKamkar](https://twitter.com/samykamkar)
 **$15**: This servo not only provides the torque we need to lift the shackle (90.26 oz*in), but has an additional wire providing analog feedback that we use to detect the state of the shackle and whether it has opened or not.
 
 ### [L7805 Voltage Regulators](http://amzn.to/1A28XOt)
-**$5**: If you're using the analog feedback servo, you'll want to use an external voltage regulator to provide enough juice to the servo. While the Arduino is 5V and can drive the servo normally, it won't be able to pump out enough current for the servo when it starts hitting the shackle and could damage your Arduino.
+**$6**: If you're using the analog feedback servo, you'll want to use an external voltage regulator to provide enough juice to the servo. While the Arduino is 5V and can drive the servo normally, it won't be able to pump out enough current for the servo when it starts hitting the shackle and could damage your Arduino.
 
 ### [500mAh 3S Lipo Battery](http://amzn.to/1PkRVlz)
-**$14**: This 500mAh 3S (3-cell, 11.1V) battery gives enough juice to the stepper motor to be very effective, and at 500mAh can last between 30-120minutes straight before having to be recharged.
+**$20**: This 500mAh 3S (3-cell, 11.1V) battery gives enough juice to the stepper motor to be very effective, and at 500mAh can last between 30-120minutes straight before having to be recharged.
 
 ### [Lipo Charger](http://amzn.to/1A1Q2n7)
-**$45**: This lipo charger is overkill if only used for this project, but is a good one that I use at home for a wide range of batteries and cells. You don't need this one, but if you want to recharge the battery, you'll need a charger that supports 3-cell LiPos.
+**$50**: This lipo charger is overkill if only used for this project, but is a good one that I use at home for a wide range of batteries and cells. You don't need this one, but if you want to recharge the battery, you'll need a charger that supports 3-cell LiPos.
 
 ### [Arctic Alumina Thermal Adehsive](http://amzn.to/1PkTakG)
 **$8**: Not required, but this is the thermal **adhesive** I use to **permanently** attach the heatsink to the stepper motor driver. Normal thermal paste has very little adhesion and kept falling off, so I switched from thermal paste to this thermal adhesive.
 
 ### [Digital Calipers](http://amzn.to/1K8juex)
-**$17**: If you don't already have digital calipers for precise measurements to measure the lock, for example, these are inexpensive and accurate.
+**$16**: If you don't already have digital calipers for precise measurements to measure the lock, for example, these are inexpensive and accurate.
 
 ### [Breadboard and Wires](http://amzn.to/1FfMb6e)
-**$9**: If you don't already have a breadboard and wires, they will kind of help.
+**$6**: If you don't already have a breadboard and wires, they will kind of help.
 
 [![Combo Breaker](http://samy.pl/combobreaker/sIMG_2875.JPG)](http://samy.pl/combobreaker/sIMG_2875.JPG)
 
