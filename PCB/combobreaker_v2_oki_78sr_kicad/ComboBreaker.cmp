@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by Cvpcb (2015-02-06 BZR 5410)-product   date = Mon 09 Feb 2015 04:12:04 PM PST
+
+BeginCmp
+TimeStamp = /58C5E417;
+Reference = A4988;
+ValeurCmp = A4988BREAKOUT;
+IdModule  = A4988BREAKOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = /58C5E4DF;
+Reference = ARDUINO4989;
+ValeurCmp = ARDUINO_NANO;
+IdModule  = ARDUINO_NANO;
+EndCmp
+
+BeginCmp
+TimeStamp = /58C5E3B4;
+Reference = C1;
+ValeurCmp = CPOL-USE3.5-8;
+IdModule  = E3_5-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /58C5E60C;
+Reference = ENCODER4989;
+ValeurCmp = MA05-1;
+IdModule  = MA05-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /58C5E990;
+Reference = J1;
+ValeurCmp = JST_2MM_MALE;
+IdModule  = JST-2-SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /58C5EA58;
+Reference = OKI-78SR4989;
+ValeurCmp = DCDC_OKI-78SR;
+IdModule  = OKI-78SRH;
+EndCmp
+
+BeginCmp
+TimeStamp = /58C5ECB0;
+Reference = SERVO4989;
+ValeurCmp = MA04-1;
+IdModule  = MA04-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /58C5ED78;
+Reference = STEPPER4989;
+ValeurCmp = MA04-1;
+IdModule  = MA04-1;
+EndCmp
+
+EndListe
