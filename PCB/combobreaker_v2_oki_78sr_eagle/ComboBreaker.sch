@@ -7725,8 +7725,8 @@ diameter 5 mm, grid 2.54 mm</description>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 <part name="OKI-78SR" library="carrilib" deviceset="DCDC_OKI-78SR" device="" value="5/1.5-W36H-C"/>
 <part name="A4988" library="RepRapjr" deviceset="A4988BREAKOUT" device="" value="StepStick"/>
-<part name="J1" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device="" value="7-35v"/>
-<part name="DISPLAY" library="SparkFun-Connectors" deviceset="I2C_STANDARD" device="" value="OLED_I2C"/>
+<part name="PWR" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device="" value="7-35v"/>
+<part name="DISPLAY" library="SparkFun-Connectors" deviceset="I2C_STANDARD" device="" value="I2C"/>
 <part name="GND9" library="supply1" deviceset="GND" device="" value="GND"/>
 </parts>
 <sheets>
@@ -7775,7 +7775,7 @@ diameter 5 mm, grid 2.54 mm</description>
 <attribute name="NAME" x="12.7" y="97.282" size="1.27" layer="95" font="vector"/>
 </instance>
 <instance part="A4988" gate="G$1" x="63.5" y="38.1"/>
-<instance part="J1" gate="G$1" x="-25.4" y="86.36" rot="R90"/>
+<instance part="PWR" gate="G$1" x="-25.4" y="86.36" rot="R90"/>
 <instance part="DISPLAY" gate="G$1" x="96.52" y="116.84" smashed="yes" rot="R180">
 <attribute name="VALUE" x="104.648" y="109.22" size="1.27" layer="96" font="vector" rot="R90" align="top-left"/>
 <attribute name="NAME" x="103.886" y="109.22" size="1.27" layer="95" font="vector" rot="R90"/>
@@ -7811,7 +7811,7 @@ diameter 5 mm, grid 2.54 mm</description>
 <wire x1="-20.32" y1="81.28" x2="-2.54" y2="81.28" width="0.1524" layer="91"/>
 <junction x="-2.54" y="81.28"/>
 <pinref part="OKI-78SR" gate="G$1" pin="GND"/>
-<pinref part="J1" gate="G$1" pin="-"/>
+<pinref part="PWR" gate="G$1" pin="-"/>
 <wire x1="-20.32" y1="81.28" x2="-20.32" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -7960,7 +7960,7 @@ diameter 5 mm, grid 2.54 mm</description>
 <wire x1="-10.16" y1="104.14" x2="-10.16" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-10.16" y="93.98"/>
 <pinref part="OKI-78SR" gate="G$1" pin="VI"/>
-<pinref part="J1" gate="G$1" pin="+"/>
+<pinref part="PWR" gate="G$1" pin="+"/>
 <wire x1="-20.32" y1="93.98" x2="-20.32" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8019,6 +8019,23 @@ diameter 5 mm, grid 2.54 mm</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,25.4,17.78,ARDUINO,!RESET,,,,"/>
+<approved hash="202,1,-15.24,43.18,ARDUINO,AREF,,,,"/>
+<approved hash="104,1,-15.24,20.32,ARDUINO,5V,+5V,,,"/>
+<approved hash="202,1,-15.24,17.78,ARDUINO,!RESET,,,,"/>
+<approved hash="204,1,-15.24,12.7,ARDUINO,VIN,,,,"/>
+<approved hash="202,1,48.26,45.72,A4988,EN,,,,"/>
+<approved hash="202,1,48.26,43.18,A4988,MS1,,,,"/>
+<approved hash="202,1,48.26,40.64,A4988,MS2,,,,"/>
+<approved hash="202,1,48.26,38.1,A4988,MS3,,,,"/>
+<approved hash="104,1,78.74,30.48,A4988,VDD,+5V,,,"/>
+<approved hash="104,1,78.74,45.72,A4988,VMOT,VCC,,,"/>
+<approved hash="104,1,88.9,119.38,DISPLAY,1,GND,,,"/>
+<approved hash="104,1,88.9,116.84,DISPLAY,2,+5V,,,"/>
+<approved hash="209,1,48.26,35.56,N$1,,,,,"/>
+<approved hash="209,1,48.26,33.02,N$1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
