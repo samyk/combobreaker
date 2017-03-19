@@ -164,17 +164,17 @@
 <wire x1="60.94" y1="38.100034375" x2="59.63313125" y2="39.40525" width="0" layer="20" curve="90.072431"/>
 <wire x1="59.63313125" y1="39.40525" x2="1.270040625" y2="39.337909375" width="0" layer="20"/>
 <wire x1="1.270040625" y1="39.337909375" x2="0.030275" y2="38.0949125" width="0" layer="20" curve="90.008361"/>
-<text x="4.191" y="15.113" size="0.6096" layer="48" rot="R90">SDA</text>
-<text x="4.191" y="17.907" size="0.6096" layer="48" rot="R90">SCL</text>
-<text x="4.191" y="20.32" size="0.6096" layer="48" rot="R90">VCC</text>
-<text x="4.191" y="22.86" size="0.6096" layer="48" font="vector" rot="R90">GND</text>
-<text x="35.56" y="34.417" size="0.6096" layer="48" font="vector" rot="R180">GND</text>
-<text x="33.02" y="34.417" size="0.6096" layer="48" font="vector" rot="R180">VCC</text>
-<text x="37.846" y="34.417" size="0.6096" layer="48" font="vector" rot="R180">+5V</text>
-<wire x1="55.88" y1="18.288" x2="55.88" y2="21.209" width="0.0762" layer="48"/>
-<wire x1="55.88" y1="32.639" x2="55.88" y2="36.703" width="0.0762" layer="48"/>
-<wire x1="55.88" y1="5.08" x2="55.88" y2="7.874" width="0.0762" layer="48"/>
-<wire x1="4.572" y1="14.097" x2="4.572" y2="25.527" width="0.0762" layer="48"/>
+<text x="4.191" y="15.113" size="0.6096" layer="21" rot="R90">SDA</text>
+<text x="4.191" y="17.907" size="0.6096" layer="21" rot="R90">SCL</text>
+<text x="4.191" y="20.32" size="0.6096" layer="21" rot="R90">VCC</text>
+<text x="4.191" y="22.86" size="0.6096" layer="21" font="vector" rot="R90">GND</text>
+<text x="35.56" y="34.417" size="0.6096" layer="21" font="vector" rot="R180">GND</text>
+<text x="33.02" y="34.417" size="0.6096" layer="21" font="vector" rot="R180">VCC</text>
+<text x="37.846" y="34.417" size="0.6096" layer="21" font="vector" rot="R180">+5V</text>
+<wire x1="55.88" y1="18.288" x2="55.88" y2="21.209" width="0.0762" layer="21"/>
+<wire x1="55.88" y1="32.639" x2="55.88" y2="36.703" width="0.0762" layer="21"/>
+<wire x1="55.88" y1="5.08" x2="55.88" y2="7.874" width="0.0762" layer="21"/>
+<wire x1="4.572" y1="14.097" x2="4.572" y2="25.527" width="0.0762" layer="21"/>
 </plain>
 <libraries>
 <library name="con-lstb">
@@ -357,14 +357,14 @@ USB</text>
 <text x="-16.51" y="-1.27" size="0.0508" layer="21" font="vector" ratio="1" rot="R90">This library was created by Esp. Marco-Luis SALCEDO TOVAR.
 Please report any errors or suggestions to: YV1HX@CANTV.NET
 Thanks you!!!</text>
-<wire x1="-17.78" y1="7.62" x2="-15.24" y2="7.62" width="0.015875" layer="21"/>
-<wire x1="-16.51" y1="8.89" x2="-16.51" y2="6.35" width="0.015875" layer="21"/>
-<wire x1="-17.78" y1="-7.62" x2="-15.24" y2="-7.62" width="0.015875" layer="21"/>
-<wire x1="-16.51" y1="-6.35" x2="-16.51" y2="-8.89" width="0.015875" layer="21"/>
-<wire x1="24.13" y1="-8.89" x2="24.13" y2="-6.35" width="0.015875" layer="21"/>
-<wire x1="22.86" y1="-7.62" x2="25.4" y2="-7.62" width="0.015875" layer="21"/>
-<wire x1="24.13" y1="6.35" x2="24.13" y2="8.89" width="0.015875" layer="21"/>
-<wire x1="22.86" y1="7.62" x2="25.4" y2="7.62" width="0.015875" layer="21"/>
+<wire x1="-17.78" y1="7.62" x2="-15.24" y2="7.62" width="0.015875" layer="49"/>
+<wire x1="-16.51" y1="8.89" x2="-16.51" y2="6.35" width="0.015875" layer="49"/>
+<wire x1="-17.78" y1="-7.62" x2="-15.24" y2="-7.62" width="0.015875" layer="49"/>
+<wire x1="-16.51" y1="-6.35" x2="-16.51" y2="-8.89" width="0.015875" layer="49"/>
+<wire x1="24.13" y1="-8.89" x2="24.13" y2="-6.35" width="0.015875" layer="49"/>
+<wire x1="22.86" y1="-7.62" x2="25.4" y2="-7.62" width="0.015875" layer="49"/>
+<wire x1="24.13" y1="6.35" x2="24.13" y2="8.89" width="0.015875" layer="49"/>
+<wire x1="22.86" y1="7.62" x2="25.4" y2="7.62" width="0.015875" layer="49"/>
 <wire x1="7.62" y1="-2.54" x2="10.16" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="10.16" y1="-2.54" x2="10.16" y2="2.54" width="0.127" layer="21"/>
 <wire x1="10.16" y1="2.54" x2="7.62" y2="2.54" width="0.127" layer="21"/>
@@ -1872,7 +1872,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="56.8452" y="1.1938" size="0.762" layer="25" ratio="15" rot="R90"/>
 <attribute name="OC_FARNELL" value="unknown" x="58.42" y="6.35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="58.42" y="6.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="56.769" y="5.08" size="0.6096" layer="27" rot="R90"/>
+<attribute name="VALUE" x="56.769" y="5.08" size="0.6096" layer="21" rot="R90"/>
 </element>
 <element name="STEPPER" library="con-lstb" package="MA04-1" value="28STH32" x="58.42" y="32.639" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="58.42" y="32.639" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1880,7 +1880,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="56.7182" y="27.4828" size="0.762" layer="25" ratio="15" rot="R90"/>
 <attribute name="OC_FARNELL" value="unknown" x="58.42" y="32.639" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="58.42" y="32.639" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="56.642" y="32.766" size="0.6096" layer="27" rot="R90"/>
+<attribute name="VALUE" x="56.642" y="32.766" size="0.6096" layer="21" rot="R90"/>
 </element>
 <element name="ENCODER" library="con-lstb" package="MA05-1" value="HKT22" x="58.42" y="19.431" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="58.42" y="19.431" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1888,7 +1888,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="56.79724375" y="12.99634375" size="0.762" layer="25" ratio="15" rot="R90"/>
 <attribute name="OC_FARNELL" value="unknown" x="58.42" y="19.431" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="58.42" y="19.431" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="56.717615625" y="18.439309375" size="0.6096" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="56.717615625" y="18.439309375" size="0.6096" layer="21" ratio="10" rot="R90"/>
 </element>
 <element name="ARDUINO" library="ArduinoNanoV30" package="ARDUINO_NANO" value="Arduino Nano V3.0 Module" x="25.397715625" y="10.102671875" smashed="yes">
 <attribute name="NAME" x="13.967715625" y="9.467671875" size="1.27" layer="21" font="vector" ratio="10"/>
@@ -1896,7 +1896,7 @@ design rules under a new name.</description>
 </element>
 <element name="C1" library="resistor" package="E3,5-8" value="100uF" x="45.72188125" y="24.3779" smashed="yes" rot="R180">
 <attribute name="NAME" x="46.219946875" y="27.080790625" size="0.508" layer="25" font="vector" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="44.06128125" y="21.606109375" size="0.762" layer="27" ratio="10"/>
+<attribute name="VALUE" x="44.06128125" y="21.606109375" size="0.762" layer="21" ratio="10"/>
 </element>
 <element name="OKI-78SR" library="carrilib" package="OKI-78SRH" value="5/1.5-W36H-C" x="34.671" y="25.527" smashed="yes" rot="R180">
 <attribute name="NAME" x="38.989" y="21.971" size="1.27" layer="25" ratio="10" rot="R180"/>
@@ -1910,11 +1910,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="44.45" y="36.576" size="0.8128" layer="25" font="vector" ratio="15"/>
 <attribute name="PROD_ID" value="CONN-11443" x="45.466" y="35.814" size="1.778" layer="27" display="off"/>
 <attribute name="SF_ID" value="PRT-08612" x="45.466" y="35.814" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="44.196" y="35.306" size="0.6096" layer="27" font="vector" ratio="10"/>
+<attribute name="VALUE" x="44.196" y="35.306" size="0.6096" layer="21" font="vector" ratio="10"/>
 </element>
 <element name="DISPLAY" library="SparkFun-Connectors" package="1X04" value="I2C" x="2.032" y="23.622" smashed="yes" rot="R270">
 <attribute name="NAME" x="5.715" y="14.097" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="4.826" y="25.527" size="0.8128" layer="27" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="4.826" y="25.527" size="0.8128" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="U$1" library="SparkFun-Hardware" package="STAND-OFF" value="" x="3.175" y="3.048" smashed="yes">
 <attribute name="VALUE" x="3.175" y="1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>

@@ -423,14 +423,14 @@ USB</text>
 <text x="-16.51" y="-1.27" size="0.0508" layer="21" font="vector" ratio="1" rot="R90">This library was created by Esp. Marco-Luis SALCEDO TOVAR.
 Please report any errors or suggestions to: YV1HX@CANTV.NET
 Thanks you!!!</text>
-<wire x1="-17.78" y1="7.62" x2="-15.24" y2="7.62" width="0.015875" layer="21"/>
-<wire x1="-16.51" y1="8.89" x2="-16.51" y2="6.35" width="0.015875" layer="21"/>
-<wire x1="-17.78" y1="-7.62" x2="-15.24" y2="-7.62" width="0.015875" layer="21"/>
-<wire x1="-16.51" y1="-6.35" x2="-16.51" y2="-8.89" width="0.015875" layer="21"/>
-<wire x1="24.13" y1="-8.89" x2="24.13" y2="-6.35" width="0.015875" layer="21"/>
-<wire x1="22.86" y1="-7.62" x2="25.4" y2="-7.62" width="0.015875" layer="21"/>
-<wire x1="24.13" y1="6.35" x2="24.13" y2="8.89" width="0.015875" layer="21"/>
-<wire x1="22.86" y1="7.62" x2="25.4" y2="7.62" width="0.015875" layer="21"/>
+<wire x1="-17.78" y1="7.62" x2="-15.24" y2="7.62" width="0.015875" layer="49"/>
+<wire x1="-16.51" y1="8.89" x2="-16.51" y2="6.35" width="0.015875" layer="49"/>
+<wire x1="-17.78" y1="-7.62" x2="-15.24" y2="-7.62" width="0.015875" layer="49"/>
+<wire x1="-16.51" y1="-6.35" x2="-16.51" y2="-8.89" width="0.015875" layer="49"/>
+<wire x1="24.13" y1="-8.89" x2="24.13" y2="-6.35" width="0.015875" layer="49"/>
+<wire x1="22.86" y1="-7.62" x2="25.4" y2="-7.62" width="0.015875" layer="49"/>
+<wire x1="24.13" y1="6.35" x2="24.13" y2="8.89" width="0.015875" layer="49"/>
+<wire x1="22.86" y1="7.62" x2="25.4" y2="7.62" width="0.015875" layer="49"/>
 <wire x1="7.62" y1="-2.54" x2="10.16" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="10.16" y1="-2.54" x2="10.16" y2="2.54" width="0.127" layer="21"/>
 <wire x1="10.16" y1="2.54" x2="7.62" y2="2.54" width="0.127" layer="21"/>
