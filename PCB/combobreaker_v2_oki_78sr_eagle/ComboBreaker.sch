@@ -379,30 +379,25 @@ W = angled&lt;p&gt;
 <pad name="28" x="-8.89" y="7.62" drill="0.9"/>
 <pad name="29" x="-11.43" y="7.62" drill="0.9"/>
 <pad name="30" x="-13.97" y="7.62" drill="0.9" rot="R180"/>
-<wire x1="-17.78" y1="8.89" x2="24.13" y2="8.89" width="0.127" layer="21"/>
-<wire x1="24.13" y1="8.89" x2="25.4" y2="8.89" width="0.127" layer="21"/>
-<wire x1="25.4" y1="8.89" x2="25.4" y2="7.62" width="0.127" layer="21"/>
-<wire x1="25.4" y1="7.62" x2="25.4" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="8.89" x2="25.4" y2="8.89" width="0.127" layer="21"/>
+<wire x1="25.4" y1="8.89" x2="25.4" y2="3.81" width="0.127" layer="21"/>
 <wire x1="25.4" y1="3.81" x2="25.4" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="25.4" y1="-3.81" x2="25.4" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="25.4" y1="-7.62" x2="25.4" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="25.4" y1="-8.89" x2="24.13" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="24.13" y1="-8.89" x2="-16.51" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="-16.51" y1="-8.89" x2="-17.78" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="-17.78" y1="-8.89" x2="-17.78" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="-17.78" y1="-7.62" x2="-17.78" y2="2.54" width="0.127" layer="21"/>
+<wire x1="25.4" y1="-3.81" x2="25.4" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="25.4" y1="-8.89" x2="-17.78" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="-8.89" x2="-17.78" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-17.78" y1="2.54" x2="-17.78" y2="8.89" width="0.127" layer="21"/>
 <wire x1="-17.78" y1="2.54" x2="-19.05" y2="2.54" width="0.127" layer="21"/>
 <wire x1="-19.05" y1="2.54" x2="-19.05" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-12.7" y1="-2.54" x2="-12.7" y2="2.54" width="0.127" layer="21"/>
 <wire x1="-12.7" y1="2.54" x2="-17.78" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="-2.54" x2="-19.05" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-2.54" x2="-17.78" y2="-2.54" width="0.127" layer="21"/>
 <text x="-11.43" y="-0.635" size="1.27" layer="21" font="vector">&gt;NAME</text>
 <text x="-11.43" y="-1.905" size="0.762" layer="21" font="vector">&gt;VALUE</text>
 <text x="8.89" y="0" size="0.762" layer="21" font="vector" rot="SR90" align="center">RESET</text>
 <text x="-13.97" y="-6.35" size="0.508" layer="21" font="vector">1</text>
 <text x="-15.24" y="0" size="0.6096" layer="21" font="vector" rot="R270" align="center">Mini-B
 USB</text>
+<wire x1="-17.78" y1="-2.54" x2="-19.05" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="25.4" y1="3.81" x2="20.32" y2="3.81" width="0.127" layer="21"/>
 <wire x1="20.32" y1="3.81" x2="20.32" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="20.32" y1="-3.81" x2="25.4" y2="-3.81" width="0.127" layer="21"/>
@@ -443,6 +438,10 @@ Thanks you!!!</text>
 <circle x="24.13" y="2.54" radius="0.889" width="0.127" layer="21"/>
 <pad name="35" x="24.13" y="0" drill="0.9"/>
 <pad name="36" x="24.13" y="-2.54" drill="0.9" shape="square"/>
+<wire x1="23.241" y1="-1.651" x2="25.019" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="25.019" y1="-1.651" x2="25.019" y2="-3.429" width="0.127" layer="21"/>
+<wire x1="25.019" y1="-3.429" x2="23.241" y2="-3.429" width="0.127" layer="21"/>
+<wire x1="23.241" y1="-3.429" x2="23.241" y2="-1.651" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -843,20 +842,6 @@ OKI-78SR-5/1.5W36H</description>
 <pad name="2" x="0" y="-10.16" drill="1.016"/>
 <pad name="1" x="2.54" y="-10.16" drill="1.016"/>
 <text x="-0.381" y="-6.731" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<wire x1="-5.08" y1="-11.43" x2="5.08" y2="-11.43" width="0.127" layer="51"/>
-<wire x1="5.08" y1="-11.43" x2="5.08" y2="-5.08" width="0.127" layer="51"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="5.08" width="0.127" layer="51"/>
-<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.127" layer="51"/>
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="0" width="0.127" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="-5.08" width="0.127" layer="51"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-11.43" width="0.127" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-2.54" y2="2.54" width="0.127" layer="51"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="51"/>
-<wire x1="2.54" y1="2.54" x2="5.08" y2="0" width="0.127" layer="51"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="-5.08" width="0.127" layer="51"/>
-<wire x1="5.08" y1="-5.08" x2="2.54" y2="-7.62" width="0.127" layer="51"/>
-<wire x1="2.54" y1="-7.62" x2="-2.54" y2="-7.62" width="0.127" layer="51"/>
-<wire x1="-2.54" y1="-7.62" x2="-5.08" y2="-5.08" width="0.127" layer="51"/>
 <text x="0.889" y="-6.731" size="0.8128" layer="25" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
