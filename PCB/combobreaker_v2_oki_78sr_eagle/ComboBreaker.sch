@@ -910,27 +910,27 @@ OKI-78SR-3.3/1.5-W36H-C</description>
 <pad name="2B" x="6.35" y="5.08" drill="0.9"/>
 <pad name="GND@0" x="6.35" y="7.62" drill="0.9"/>
 <pad name="VMOT" x="6.35" y="10.16" drill="0.9"/>
-<text x="-5.08" y="9.525" size="0.6096" layer="21">EN</text>
-<text x="-5.08" y="6.985" size="0.6096" layer="21">MS1</text>
-<text x="-5.08" y="4.445" size="0.6096" layer="21">MS2</text>
-<text x="-5.08" y="1.905" size="0.6096" layer="21">MS3</text>
-<text x="-5.08" y="-0.635" size="0.6096" layer="21">RST</text>
-<text x="-5.08" y="-5.715" size="0.6096" layer="21">STEP</text>
-<text x="-5.08" y="-8.255" size="0.6096" layer="21">DIR</text>
-<text x="5.08" y="10.795" size="0.6096" layer="21" rot="R180">Vmot</text>
-<text x="5.08" y="8.255" size="0.6096" layer="21" rot="R180">GND</text>
-<text x="5.08" y="5.715" size="0.6096" layer="21" rot="R180">2B</text>
-<text x="5.08" y="3.175" size="0.6096" layer="21" rot="R180">2A</text>
-<text x="5.08" y="0.635" size="0.6096" layer="21" rot="R180">1A</text>
-<text x="5.08" y="-1.905" size="0.6096" layer="21" rot="R180">1B</text>
-<text x="5.08" y="-4.445" size="0.6096" layer="21" rot="R180">VDD</text>
-<text x="5.08" y="-6.985" size="0.6096" layer="21" rot="R180">GND</text>
-<text x="-5.08" y="-3.175" size="0.6096" layer="21">SLP</text>
+<text x="-5.08" y="9.906" size="0.6096" layer="21" font="vector" ratio="10">EN</text>
+<text x="-5.08" y="7.366" size="0.6096" layer="21" font="vector" ratio="10">MS1</text>
+<text x="-5.08" y="4.826" size="0.6096" layer="21" font="vector" ratio="10">MS2</text>
+<text x="-5.08" y="2.286" size="0.6096" layer="21" font="vector" ratio="10">MS3</text>
+<text x="-5.08" y="-0.254" size="0.6096" layer="21" font="vector" ratio="10">RST</text>
+<text x="-5.08" y="-5.334" size="0.6096" layer="21" font="vector" ratio="10">STEP</text>
+<text x="-5.08" y="-7.874" size="0.6096" layer="21" font="vector" ratio="10">DIR</text>
+<text x="5.207" y="10.414" size="0.6096" layer="21" font="vector" ratio="10" rot="R180">VMOT</text>
+<text x="5.207" y="7.874" size="0.6096" layer="21" font="vector" ratio="10" rot="R180">GND</text>
+<text x="5.207" y="5.334" size="0.6096" layer="21" font="vector" ratio="10" rot="R180">2B</text>
+<text x="5.207" y="2.794" size="0.6096" layer="21" font="vector" ratio="10" rot="R180">2A</text>
+<text x="5.207" y="0.254" size="0.6096" layer="21" font="vector" ratio="10" rot="R180">1A</text>
+<text x="5.207" y="-2.286" size="0.6096" layer="21" font="vector" ratio="10" rot="R180">1B</text>
+<text x="5.207" y="-4.826" size="0.6096" layer="21" font="vector" ratio="10" rot="R180">VDD</text>
+<text x="5.207" y="-7.366" size="0.6096" layer="21" font="vector" ratio="10" rot="R180">GND</text>
+<text x="-5.08" y="-2.794" size="0.6096" layer="21" font="vector" ratio="10">SLP</text>
 <circle x="0" y="-6.35" radius="1.524" width="0.127" layer="21"/>
 <wire x1="0" y1="-5.715" x2="0" y2="-6.985" width="0.4064" layer="21"/>
 <wire x1="-0.635" y1="-6.35" x2="0.635" y2="-6.35" width="0.4064" layer="21"/>
-<text x="0.127" y="-2.286" size="1.27" layer="21" rot="R90">&gt;NAME</text>
-<text x="1.016" y="-2.286" size="0.6096" layer="21" rot="R90">&gt;VALUE</text>
+<text x="0.127" y="-2.286" size="1.27" layer="21" font="vector" rot="R90">&gt;NAME</text>
+<text x="1.016" y="-2.286" size="0.6096" layer="21" font="vector" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
