@@ -200,7 +200,7 @@ W = angled&lt;p&gt;
 <wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
 <pad name="1" x="-5.08" y="0" drill="0.9" shape="square" rot="R90"/>
 <pad name="2" x="-2.54" y="0" drill="0.9" rot="R90"/>
-<pad name="3" x="0" y="0" drill="1.016" rot="R90"/>
+<pad name="3" x="0" y="0" drill="0.9" rot="R90"/>
 <pad name="4" x="2.54" y="0" drill="0.9" rot="R90"/>
 <pad name="5" x="5.08" y="0" drill="0.9" rot="R90"/>
 <text x="-6.35" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
