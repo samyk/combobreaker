@@ -2305,8 +2305,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <package name="E3,5-8">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 3.5 mm, diameter 8 mm</description>
-<wire x1="-3.429" y1="1.143" x2="-2.667" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="0.762" x2="-3.048" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="1.778" x2="-2.032" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="1.397" x2="-2.413" y2="2.159" width="0.1524" layer="21"/>
 <wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="51"/>
@@ -7777,7 +7777,7 @@ diameter 5 mm, grid 2.54 mm</description>
 <pinref part="A4988" gate="G$1" pin="2B"/>
 </segment>
 </net>
-<net name="1B_GRN" class="0">
+<net name="1A_GRN" class="0">
 <segment>
 <wire x1="91.44" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="STEPPER" gate="1" pin="3"/>
@@ -7843,7 +7843,7 @@ diameter 5 mm, grid 2.54 mm</description>
 <pinref part="A4988" gate="G$1" pin="2A"/>
 </segment>
 </net>
-<net name="1A_BLK" class="0">
+<net name="1B_BLK" class="0">
 <segment>
 <pinref part="STEPPER" gate="1" pin="4"/>
 <wire x1="78.74" y1="33.02" x2="91.44" y2="33.02" width="0.1524" layer="91"/>

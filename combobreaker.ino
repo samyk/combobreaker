@@ -53,7 +53,8 @@
 #define MICROSTEPS 8 // was 8 on easydriver
 
 // fastest (us) we can get stepper moving without skipping
-#define MIN_DELAY (1600 / MICROSTEPS) // was 200
+// #define MIN_DELAY (1600 / MICROSTEPS) // was 200
+#define MIN_DELAY 500
 
 // Number of digits on a Master combo lock
 #define DIGITS 40
@@ -360,7 +361,7 @@ void step(int steps)
   {
     digitalWrite(STEP_PIN, LOW);
     digitalWrite(STEP_PIN, HIGH);
-    delayMicroseconds(MIN_DELAY);
+    delayMicroseconds(500);
   }
 
   // get encoder position
