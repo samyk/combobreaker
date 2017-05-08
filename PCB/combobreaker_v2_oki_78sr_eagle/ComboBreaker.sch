@@ -7710,9 +7710,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 <part name="OKI-78SR" library="carrilib" deviceset="DCDC_OKI-78SR" device="" value="5/1.5-W36H-C"/>
 <part name="A4988" library="RepRapjr" deviceset="A4988BREAKOUT" device="" value="StepStick"/>
-<part name="PWR" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device="" value="7-35v"/>
 <part name="DISPLAY" library="SparkFun-Connectors" deviceset="I2C_STANDARD" device="" value="I2C"/>
 <part name="GND9" library="supply1" deviceset="GND" device="" value="GND"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7760,12 +7760,12 @@ diameter 5 mm, grid 2.54 mm</description>
 <attribute name="NAME" x="12.7" y="97.282" size="1.27" layer="95" font="vector"/>
 </instance>
 <instance part="A4988" gate="G$1" x="63.5" y="38.1"/>
-<instance part="PWR" gate="G$1" x="-25.4" y="86.36" rot="R90"/>
 <instance part="DISPLAY" gate="G$1" x="96.52" y="116.84" smashed="yes" rot="R180">
 <attribute name="VALUE" x="104.648" y="109.22" size="1.27" layer="96" font="vector" rot="R90" align="top-left"/>
 <attribute name="NAME" x="103.886" y="109.22" size="1.27" layer="95" font="vector" rot="R90"/>
 </instance>
 <instance part="GND9" gate="1" x="83.82" y="124.46" rot="R180"/>
+<instance part="J1" gate="G$1" x="-27.94" y="86.36" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -7796,8 +7796,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <wire x1="-20.32" y1="81.28" x2="-2.54" y2="81.28" width="0.1524" layer="91"/>
 <junction x="-2.54" y="81.28"/>
 <pinref part="OKI-78SR" gate="G$1" pin="GND"/>
-<pinref part="PWR" gate="G$1" pin="-"/>
 <wire x1="-20.32" y1="81.28" x2="-20.32" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="-"/>
+<wire x1="-20.32" y1="86.36" x2="-22.86" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -7945,8 +7946,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <wire x1="-10.16" y1="104.14" x2="-10.16" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-10.16" y="93.98"/>
 <pinref part="OKI-78SR" gate="G$1" pin="VI"/>
-<pinref part="PWR" gate="G$1" pin="+"/>
 <wire x1="-20.32" y1="93.98" x2="-20.32" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="+"/>
+<wire x1="-20.32" y1="88.9" x2="-22.86" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
