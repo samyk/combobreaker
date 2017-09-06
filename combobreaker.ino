@@ -58,9 +58,6 @@
 // Number of digits on a Master combo lock
 #define DIGITS 40
 
-// C's % is remainder instead of modulo
-#define mod(a, b) ((a % b + b) % b)
-
 // For debug
 #define BAUDRATE 9600
 
@@ -317,7 +314,7 @@ void spinto(int spins, int digit, boolean cw)
   else
     digit = digit - current_digit;
 
-  digit = mod(digit, DIGITS);
+  digit = digit % DIGITS;
 
   // track where we are for next time
   current_digit = tmp;
@@ -368,7 +365,7 @@ void step(int steps)
   if (newPosition != oldPosition)
   {
     //      oldPosition = newPosition;
-    oldPosition = mod(newPosition, ENCODER_STEPS);//XXX
+    oldPosition = newPosition % ENCODER_STEPS;//XXX
     Serial.print("newpos=");
     Serial.print(newPosition);
     Serial.print(" actual=");
