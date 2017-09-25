@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -156,7 +157,7 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="con-lstb">
+<library name="con-lstb" urn="urn:adsk.eagle:library:162">
 <description>&lt;b&gt;Pin Headers&lt;/b&gt;&lt;p&gt;
 Naming:&lt;p&gt;
 MA = male&lt;p&gt;
@@ -164,7 +165,7 @@ MA = male&lt;p&gt;
 W = angled&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="MA05-1">
+<package name="MA05-1" urn="urn:adsk.eagle:footprint:8283/1" library_version="1">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-5.715" y1="1.27" x2="-4.445" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="-4.445" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
@@ -198,22 +199,22 @@ W = angled&lt;p&gt;
 <wire x1="1.905" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="1.27" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-5.08" y="0" drill="0.9" shape="square" rot="R90"/>
-<pad name="2" x="-2.54" y="0" drill="0.9" rot="R90"/>
-<pad name="3" x="0" y="0" drill="0.9" rot="R90"/>
-<pad name="4" x="2.54" y="0" drill="0.9" rot="R90"/>
-<pad name="5" x="5.08" y="0" drill="0.9" rot="R90"/>
+<pad name="1" x="-5.08" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="5" x="5.08" y="0" drill="1.016" shape="long" rot="R90"/>
 <text x="-6.35" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-6.604309375" y="-1.504009375" size="0.4064" layer="21" ratio="10">1</text>
-<text x="6.180534375" y="-1.502784375" size="0.4064" layer="21" ratio="10">5</text>
-<text x="6.35" y="2.921" size="1.016" layer="27" ratio="10" rot="R180">&gt;VALUE</text>
+<text x="-5.715" y="-2.921" size="1.27" layer="21" ratio="10">1</text>
+<text x="4.445" y="1.651" size="1.27" layer="21" ratio="10">5</text>
+<text x="-2.54" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
 <rectangle x1="-5.334" y1="-0.254" x2="-4.826" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 </package>
-<package name="MA04-1">
+<package name="MA04-1" urn="urn:adsk.eagle:footprint:8285/1" library_version="1">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
@@ -241,22 +242,30 @@ W = angled&lt;p&gt;
 <wire x1="3.175" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="0.9" shape="square" rot="R90"/>
-<pad name="2" x="-1.27" y="0" drill="0.9" rot="R90"/>
-<pad name="3" x="1.27" y="0" drill="0.9" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="0.9" rot="R90"/>
-<text x="-5.08" y="1.651" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-5.334" y="-1.524" size="0.4064" layer="21" font="vector" ratio="10">1</text>
-<text x="0.635" y="1.651" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<text x="4.826" y="-1.397" size="0.4064" layer="21" font="vector" ratio="10">4</text>
+<pad name="1" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.08" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-6.223" y="-0.635" size="1.27" layer="21" ratio="10">1</text>
+<text x="0.635" y="1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="5.334" y="-0.635" size="1.27" layer="21" ratio="10">4</text>
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
 <rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
 <rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="MA05-1" urn="urn:adsk.eagle:package:8332/1" type="box" library_version="1">
+<description>PIN HEADER</description>
+</package3d>
+<package3d name="MA04-1" urn="urn:adsk.eagle:package:8337/1" type="box" library_version="1">
+<description>PIN HEADER</description>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="MA05-1">
+<symbol name="MA05-1" urn="urn:adsk.eagle:symbol:8282/1" library_version="1">
 <wire x1="3.81" y1="-7.62" x2="-1.27" y2="-7.62" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
@@ -274,7 +283,7 @@ W = angled&lt;p&gt;
 <pin name="4" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="5" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="MA04-1">
+<symbol name="MA04-1" urn="urn:adsk.eagle:symbol:8284/1" library_version="1">
 <wire x1="3.81" y1="-7.62" x2="-1.27" y2="-7.62" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
@@ -292,7 +301,7 @@ W = angled&lt;p&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MA05-1" prefix="SV" uservalue="yes">
+<deviceset name="MA05-1" urn="urn:adsk.eagle:component:8379/1" prefix="SV" uservalue="yes" library_version="1">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MA05-1" x="0" y="0"/>
@@ -306,6 +315,9 @@ W = angled&lt;p&gt;
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8332/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MF" value="" constant="no"/>
@@ -317,7 +329,7 @@ W = angled&lt;p&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="MA04-1" prefix="SV" uservalue="yes">
+<deviceset name="MA04-1" urn="urn:adsk.eagle:component:8375/1" prefix="SV" uservalue="yes" library_version="1">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="MA04-1" x="0" y="0"/>
@@ -330,6 +342,9 @@ W = angled&lt;p&gt;
 <connect gate="1" pin="3" pad="3"/>
 <connect gate="1" pin="4" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8337/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MF" value="" constant="no"/>
@@ -746,7 +761,7 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 </deviceset>
 </devicesets>
 </library>
-<library name="supply1">
+<library name="supply1" urn="urn:adsk.eagle:library:371">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
  Please keep in mind, that these devices are necessary for the
@@ -757,26 +772,26 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <packages>
 </packages>
 <symbols>
-<symbol name="+5V">
+<symbol name="+5V" urn="urn:adsk.eagle:symbol:26929/1" library_version="1">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="VCC">
+<symbol name="VCC" urn="urn:adsk.eagle:symbol:26928/1" library_version="1">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="GND">
+<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="+5V" prefix="P+">
+<deviceset name="+5V" urn="urn:adsk.eagle:component:26963/1" prefix="P+" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+5V" x="0" y="0"/>
@@ -789,7 +804,7 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 </device>
 </devices>
 </deviceset>
-<deviceset name="VCC" prefix="P+">
+<deviceset name="VCC" urn="urn:adsk.eagle:component:26957/1" prefix="P+" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="VCC" symbol="VCC" x="0" y="0"/>
@@ -802,7 +817,7 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 </device>
 </devices>
 </deviceset>
-<deviceset name="GND" prefix="GND">
+<deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
@@ -1099,6 +1114,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="1X04_1MM_RA">
+<description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.254" layer="21"/>
+<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.254" layer="21"/>
+<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.254" layer="21"/>
+<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.254" layer="21"/>
+<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.254" layer="21"/>
+<circle x="-2.5" y="0.3" radius="0.1414" width="0.4" layer="21"/>
+<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="JST_2MM_MALE">
@@ -1114,7 +1153,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="4.064" y1="0" x2="-1.524" y2="0" width="0.254" layer="94"/>
 <wire x1="-1.524" y1="0" x2="-1.524" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-2.54" x2="-1.524" y2="-2.54" width="0.254" layer="94"/>
-<pin name="-" x="0" y="-5.08" visible="off" length="middle" rot="R90"/>
+<pin name="GND" x="0" y="-5.08" visible="off" length="middle" rot="R90"/>
 <pin name="+" x="2.54" y="-5.08" visible="off" length="middle" rot="R90"/>
 <pin name="PAD2" x="5.08" y="2.54" visible="off" length="point" rot="R90"/>
 <pin name="PAD1" x="-2.54" y="2.54" visible="off" length="point" rot="R90"/>
@@ -1146,10 +1185,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
 <pin name="3" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="4" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<text x="-4.572" y="5.08" size="1.778" layer="94" font="vector" align="center-left">SDA</text>
+<text x="-4.572" y="2.54" size="1.778" layer="94" font="vector" align="center-left">SDA</text>
 <text x="-4.572" y="0" size="1.778" layer="94" font="vector" align="center-left">VCC</text>
 <text x="-4.572" y="-2.54" size="1.778" layer="94" font="vector" align="center-left">GND</text>
-<text x="-4.572" y="2.54" size="1.778" layer="94" font="vector" align="center-left">SCL</text>
+<text x="-4.572" y="5.08" size="1.778" layer="94" font="vector" align="center-left">SCL</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1178,7 +1217,7 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <device name="" package="JST-2-SMD">
 <connects>
 <connect gate="G$1" pin="+" pad="2"/>
-<connect gate="G$1" pin="-" pad="1"/>
+<connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="PAD1" pad="NC1"/>
 <connect gate="G$1" pin="PAD2" pad="NC2"/>
 </connects>
@@ -1228,11 +1267,25 @@ to be daisy chained easily.&lt;/p&gt;
 <technology name=""/>
 </technologies>
 </device>
+<device name="QWIIC" package="1X04_1MM_RA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-13694" constant="no"/>
+<attribute name="VALUE" value="Qwiic Right Angle" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
 </library>
-<library name="resistor">
+<library name="resistor" urn="urn:adsk.eagle:library:348">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
 &lt;ul&gt;
@@ -2302,11 +2355,11 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/table&gt;
 &lt;/BODY&gt;&lt;/HTML&gt;</description>
 <packages>
-<package name="E3,5-8">
+<package name="E3,5-8" urn="urn:adsk.eagle:footprint:25403/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 3.5 mm, diameter 8 mm</description>
-<wire x1="-2.794" y1="1.778" x2="-2.032" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="-2.413" y1="1.397" x2="-2.413" y2="2.159" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="1.143" x2="-2.667" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="0.762" x2="-3.048" y2="1.524" width="0.1524" layer="21"/>
 <wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="51"/>
@@ -2321,7 +2374,7 @@ grid 3.5 mm, diameter 8 mm</description>
 <text x="-2.286" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
 </package>
-<package name="CT3216">
+<package name="CT3216" urn="urn:adsk.eagle:footprint:25348/1" library_version="1">
 <description>&lt;b&gt;TANTALUM CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.973" y1="1.483" x2="2.973" y2="1.483" width="0.0508" layer="39"/>
 <wire x1="2.973" y1="-1.483" x2="-2.973" y2="-1.483" width="0.0508" layer="39"/>
@@ -2341,7 +2394,7 @@ grid 3.5 mm, diameter 8 mm</description>
 <text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.1999" y1="-0.5999" x2="0.1999" y2="0.5999" layer="35"/>
 </package>
-<package name="CT3528">
+<package name="CT3528" urn="urn:adsk.eagle:footprint:25349/1" library_version="1">
 <description>&lt;b&gt;TANTALUM CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.973" y1="1.983" x2="2.973" y2="1.983" width="0.0508" layer="39"/>
 <wire x1="2.973" y1="-1.983" x2="-2.973" y2="-1.983" width="0.0508" layer="39"/>
@@ -2361,7 +2414,7 @@ grid 3.5 mm, diameter 8 mm</description>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.3" y1="-1" x2="0.3" y2="1" layer="35"/>
 </package>
-<package name="CT6032">
+<package name="CT6032" urn="urn:adsk.eagle:footprint:25353/1" library_version="1">
 <description>&lt;b&gt;TANTALUM CAPACITOR&lt;/b&gt;</description>
 <wire x1="-4.473" y1="1.983" x2="4.473" y2="1.983" width="0.0508" layer="39"/>
 <wire x1="4.473" y1="-1.983" x2="-4.473" y2="-1.983" width="0.0508" layer="39"/>
@@ -2381,7 +2434,7 @@ grid 3.5 mm, diameter 8 mm</description>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
 </package>
-<package name="CT7343">
+<package name="CT7343" urn="urn:adsk.eagle:footprint:25351/1" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 chip
 tantalum</description>
@@ -2407,7 +2460,7 @@ tantalum</description>
 <text x="-3.175" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
 </package>
-<package name="B45181A">
+<package name="B45181A" urn="urn:adsk.eagle:footprint:25350/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 body 5 x 5 mm, rectangle, grid 2.54 mm</description>
 <wire x1="2.032" y1="2.286" x2="-1.651" y2="2.286" width="0.1524" layer="21"/>
@@ -2433,7 +2486,7 @@ body 5 x 5 mm, rectangle, grid 2.54 mm</description>
 <text x="3.048" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
 </package>
-<package name="B45181B">
+<package name="B45181B" urn="urn:adsk.eagle:footprint:25352/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 body 7.6 x 5 mm, rectangle, grid 5.08 mm</description>
 <wire x1="3.302" y1="2.413" x2="-2.921" y2="2.413" width="0.1524" layer="21"/>
@@ -2459,7 +2512,7 @@ body 7.6 x 5 mm, rectangle, grid 5.08 mm</description>
 <text x="4.191" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
 </package>
-<package name="B45181C">
+<package name="B45181C" urn="urn:adsk.eagle:footprint:25358/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 body 12.7 x 7.6 mm, rectangle, grid 10.16 mm</description>
 <wire x1="5.842" y1="3.683" x2="-5.461" y2="3.683" width="0.1524" layer="21"/>
@@ -2485,7 +2538,7 @@ body 12.7 x 7.6 mm, rectangle, grid 10.16 mm</description>
 <text x="-3.81" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
 </package>
-<package name="B45181D">
+<package name="B45181D" urn="urn:adsk.eagle:footprint:25357/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 body 12.5 x 12.5 mm, rectangle, grid 10.16 mm</description>
 <wire x1="5.842" y1="6.223" x2="-5.08" y2="6.223" width="0.1524" layer="21"/>
@@ -2511,7 +2564,7 @@ body 12.5 x 12.5 mm, rectangle, grid 10.16 mm</description>
 <text x="-3.81" y="-3.81" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
 </package>
-<package name="TT2D4">
+<package name="TT2D4" urn="urn:adsk.eagle:footprint:25356/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 4 mm, grid 2.54 mm</description>
 <wire x1="-1.016" y1="0" x2="-0.508" y2="0" width="0.1524" layer="51"/>
@@ -2533,7 +2586,7 @@ diameter 4 mm, grid 2.54 mm</description>
 <text x="2.159" y="-1.905" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.127" y1="-0.9398" x2="0.5588" y2="0.9398" layer="51"/>
 </package>
-<package name="TT2D4L">
+<package name="TT2D4L" urn="urn:adsk.eagle:footprint:25361/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 4 mm, grid 2.54 mm</description>
 <wire x1="2.159" y1="7.747" x2="2.159" y2="1.651" width="0.1524" layer="21"/>
@@ -2562,7 +2615,7 @@ diameter 4 mm, grid 2.54 mm</description>
 <rectangle x1="-1.651" y1="-0.127" x2="-0.889" y2="0.635" layer="51"/>
 <rectangle x1="0" y1="1.6002" x2="0.4318" y2="3.4798" layer="21"/>
 </package>
-<package name="TT2D5">
+<package name="TT2D5" urn="urn:adsk.eagle:footprint:25363/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 5 mm, grid 2.54 mm</description>
 <wire x1="-1.016" y1="0" x2="-0.508" y2="0" width="0.1524" layer="51"/>
@@ -2582,7 +2635,7 @@ diameter 5 mm, grid 2.54 mm</description>
 <text x="-0.762" y="-2.159" size="0.9906" layer="21" ratio="12">TT</text>
 <rectangle x1="0.127" y1="-0.9398" x2="0.5588" y2="0.9398" layer="51"/>
 </package>
-<package name="TT2D6">
+<package name="TT2D6" urn="urn:adsk.eagle:footprint:25354/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 6 mm, grid 2.54 mm</description>
 <wire x1="-1.016" y1="0" x2="-0.508" y2="0" width="0.1524" layer="51"/>
@@ -2602,7 +2655,7 @@ diameter 6 mm, grid 2.54 mm</description>
 <text x="0.254" y="-2.286" size="0.9906" layer="21" ratio="12">TT</text>
 <rectangle x1="0.127" y1="-0.9398" x2="0.5588" y2="0.9398" layer="51"/>
 </package>
-<package name="TT2D6L">
+<package name="TT2D6L" urn="urn:adsk.eagle:footprint:25355/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 6 mm, grid 2.54 mm</description>
 <wire x1="3.048" y1="10.033" x2="3.048" y2="1.651" width="0.1524" layer="21"/>
@@ -2631,7 +2684,7 @@ diameter 6 mm, grid 2.54 mm</description>
 <rectangle x1="-1.651" y1="-0.127" x2="-0.889" y2="0.635" layer="51"/>
 <rectangle x1="0.381" y1="1.4732" x2="0.8128" y2="3.3528" layer="21"/>
 </package>
-<package name="TT2D7L">
+<package name="TT2D7L" urn="urn:adsk.eagle:footprint:25362/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 7 mm, grid 2.54 mm</description>
 <wire x1="3.556" y1="10.16" x2="3.556" y2="1.651" width="0.1524" layer="21"/>
@@ -2660,7 +2713,7 @@ diameter 7 mm, grid 2.54 mm</description>
 <rectangle x1="-1.651" y1="-0.127" x2="-0.889" y2="0.635" layer="51"/>
 <rectangle x1="0.127" y1="1.4732" x2="0.5588" y2="3.3528" layer="21"/>
 </package>
-<package name="TT2D7">
+<package name="TT2D7" urn="urn:adsk.eagle:footprint:25359/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 7 mm, grid 2.54 mm</description>
 <wire x1="-1.016" y1="0" x2="-0.508" y2="0" width="0.1524" layer="51"/>
@@ -2680,7 +2733,7 @@ diameter 7 mm, grid 2.54 mm</description>
 <text x="0.127" y="-2.667" size="1.27" layer="21" ratio="10">TT</text>
 <rectangle x1="0.127" y1="-0.9398" x2="0.5588" y2="0.9398" layer="51"/>
 </package>
-<package name="TT5D10">
+<package name="TT5D10" urn="urn:adsk.eagle:footprint:25360/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 10 mm, grid 5.08 mm</description>
 <wire x1="-1.397" y1="0" x2="-0.635" y2="0" width="0.1524" layer="21"/>
@@ -2700,7 +2753,7 @@ diameter 10 mm, grid 5.08 mm</description>
 <text x="2.794" y="1.143" size="0.9906" layer="21" ratio="12">TT</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
 </package>
-<package name="TT5D11">
+<package name="TT5D11" urn="urn:adsk.eagle:footprint:25364/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 11 mm, grid 5.08 mm</description>
 <wire x1="-1.397" y1="0" x2="-0.635" y2="0" width="0.1524" layer="21"/>
@@ -2720,7 +2773,7 @@ diameter 11 mm, grid 5.08 mm</description>
 <text x="3.175" y="1.016" size="0.9906" layer="21" ratio="12">TT</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
 </package>
-<package name="TT5D11L">
+<package name="TT5D11L" urn="urn:adsk.eagle:footprint:25365/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 11 mm, grid 5.08 mm</description>
 <wire x1="-5.08" y1="12.954" x2="-5.08" y2="1.651" width="0.1524" layer="21"/>
@@ -2753,7 +2806,7 @@ diameter 11 mm, grid 5.08 mm</description>
 <rectangle x1="-2.54" y1="-0.381" x2="-1.651" y2="0.381" layer="51"/>
 <rectangle x1="0.127" y1="1.9812" x2="0.5588" y2="3.8608" layer="21"/>
 </package>
-<package name="TT5D6">
+<package name="TT5D6" urn="urn:adsk.eagle:footprint:25366/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 6 mm, grid 5.08 mm</description>
 <wire x1="-2.908" y1="0.9307" x2="2.921" y2="0.889" width="0.1524" layer="21" curve="-145.325311"/>
@@ -2776,7 +2829,7 @@ diameter 6 mm, grid 5.08 mm</description>
 <text x="0.508" y="-2.159" size="0.9906" layer="21" ratio="12">TT</text>
 <rectangle x1="0.127" y1="-0.9398" x2="0.5588" y2="0.9398" layer="21"/>
 </package>
-<package name="TT5D6L">
+<package name="TT5D6L" urn="urn:adsk.eagle:footprint:25367/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 6 mm, grid 5.08 mm</description>
 <wire x1="3.048" y1="10.033" x2="3.048" y2="1.651" width="0.1524" layer="21"/>
@@ -2809,7 +2862,7 @@ diameter 6 mm, grid 5.08 mm</description>
 <rectangle x1="-2.54" y1="-0.381" x2="-1.651" y2="0.381" layer="51"/>
 <rectangle x1="0.127" y1="1.6002" x2="0.5588" y2="3.4798" layer="21"/>
 </package>
-<package name="TT5D7">
+<package name="TT5D7" urn="urn:adsk.eagle:footprint:25368/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 7 mm, grid 5.08 mm</description>
 <wire x1="-1.524" y1="0" x2="-0.635" y2="0" width="0.1524" layer="21"/>
@@ -2829,7 +2882,7 @@ diameter 7 mm, grid 5.08 mm</description>
 <text x="0.635" y="-2.667" size="0.9906" layer="21" ratio="12">TT</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
 </package>
-<package name="TT5D7L">
+<package name="TT5D7L" urn="urn:adsk.eagle:footprint:25369/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 7 mm, grid 5.08 mm</description>
 <wire x1="-3.556" y1="10.16" x2="-3.556" y2="1.651" width="0.1524" layer="21"/>
@@ -2862,7 +2915,7 @@ diameter 7 mm, grid 5.08 mm</description>
 <rectangle x1="-2.54" y1="-0.381" x2="-1.651" y2="0.381" layer="51"/>
 <rectangle x1="0.127" y1="1.7272" x2="0.5588" y2="3.6068" layer="21"/>
 </package>
-<package name="TT5D9">
+<package name="TT5D9" urn="urn:adsk.eagle:footprint:25370/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 9 mm, grid 5.08 mm</description>
 <wire x1="-1.524" y1="0" x2="-0.635" y2="0" width="0.1524" layer="21"/>
@@ -2882,7 +2935,7 @@ diameter 9 mm, grid 5.08 mm</description>
 <text x="2.159" y="1.016" size="0.9906" layer="21" ratio="12">TT</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
 </package>
-<package name="TT5D9L">
+<package name="TT5D9L" urn="urn:adsk.eagle:footprint:25371/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 9 mm, grid 5.08 mm</description>
 <wire x1="-4.572" y1="10.033" x2="-4.572" y2="1.651" width="0.1524" layer="21"/>
@@ -2915,7 +2968,7 @@ diameter 9 mm, grid 5.08 mm</description>
 <rectangle x1="-2.54" y1="-0.381" x2="-1.651" y2="0.381" layer="51"/>
 <rectangle x1="0.254" y1="1.8542" x2="0.6858" y2="3.7338" layer="21"/>
 </package>
-<package name="ETR1">
+<package name="ETR1" urn="urn:adsk.eagle:footprint:25372/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 rectangle, grid 2.54 mm</description>
 <wire x1="2.159" y1="2.54" x2="-2.032" y2="2.54" width="0.1524" layer="21"/>
@@ -2944,7 +2997,7 @@ rectangle, grid 2.54 mm</description>
 <text x="-2.032" y="-4.064" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
 </package>
-<package name="ETR2">
+<package name="ETR2" urn="urn:adsk.eagle:footprint:25373/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 rectangle, grid 5.08 mm</description>
 <wire x1="-3.302" y1="-2.159" x2="-3.302" y2="-0.762" width="0.1524" layer="21"/>
@@ -2973,7 +3026,7 @@ rectangle, grid 5.08 mm</description>
 <text x="-3.302" y="-3.683" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
 </package>
-<package name="ETR3">
+<package name="ETR3" urn="urn:adsk.eagle:footprint:25374/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 rectangle, grid 5.08 mm</description>
 <wire x1="-3.302" y1="-2.54" x2="-3.302" y2="-0.762" width="0.1524" layer="21"/>
@@ -3002,7 +3055,7 @@ rectangle, grid 5.08 mm</description>
 <text x="-3.302" y="-4.064" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
 </package>
-<package name="ETR4">
+<package name="ETR4" urn="urn:adsk.eagle:footprint:25375/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 rectangle, grid 10.16 mm</description>
 <wire x1="-0.762" y1="-1.0922" x2="-0.254" y2="-1.0922" width="0.1524" layer="21"/>
@@ -3031,7 +3084,7 @@ rectangle, grid 10.16 mm</description>
 <text x="-3.81" y="-3.175" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.143" x2="0.762" y2="1.143" layer="21"/>
 </package>
-<package name="ETR5">
+<package name="ETR5" urn="urn:adsk.eagle:footprint:25376/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 rectangle, grid 10.16 mm</description>
 <wire x1="-5.842" y1="-6.1722" x2="-5.842" y2="-1.4986" width="0.1524" layer="21"/>
@@ -3060,7 +3113,7 @@ rectangle, grid 10.16 mm</description>
 <text x="-5.08" y="-5.08" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-0.3048" y1="-1.6002" x2="0.3302" y2="1.6002" layer="21"/>
 </package>
-<package name="P128-35">
+<package name="P128-35" urn="urn:adsk.eagle:footprint:25377/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="1.778" y1="2.54" x2="1.778" y2="1.397" width="0.1524" layer="21"/>
 <wire x1="1.778" y1="1.397" x2="1.778" y2="0.635" width="0.1524" layer="21"/>
@@ -3103,7 +3156,7 @@ rectangle, grid 10.16 mm</description>
 <text x="-1.651" y="-5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
 </package>
-<package name="P128-40">
+<package name="P128-40" urn="urn:adsk.eagle:footprint:25378/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="2.032" y1="2.54" x2="2.032" y2="1.143" width="0.1524" layer="21"/>
 <wire x1="2.032" y1="1.143" x2="2.032" y2="0.762" width="0.1524" layer="21"/>
@@ -3146,7 +3199,7 @@ rectangle, grid 10.16 mm</description>
 <text x="-2.032" y="-5.207" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
 </package>
-<package name="P128-50">
+<package name="P128-50" urn="urn:adsk.eagle:footprint:25379/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="2.54" y1="3.048" x2="2.54" y2="1.143" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-1.143" x2="2.54" y2="-3.048" width="0.1524" layer="21"/>
@@ -3179,7 +3232,7 @@ rectangle, grid 10.16 mm</description>
 <text x="-2.159" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
 </package>
-<package name="P128-60">
+<package name="P128-60" urn="urn:adsk.eagle:footprint:25380/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="3.048" y1="3.048" x2="3.048" y2="1.143" width="0.1524" layer="21"/>
 <wire x1="3.048" y1="-1.143" x2="3.048" y2="-3.048" width="0.1524" layer="21"/>
@@ -3208,7 +3261,7 @@ rectangle, grid 10.16 mm</description>
 <text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
 </package>
-<package name="TAP5-45">
+<package name="TAP5-45" urn="urn:adsk.eagle:footprint:25381/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 4.5 mm, grid 5.08 mm</description>
 <wire x1="-1.397" y1="0" x2="-0.508" y2="0" width="0.1524" layer="21"/>
@@ -3236,7 +3289,7 @@ diameter 4.5 mm, grid 5.08 mm</description>
 <text x="2.286" y="-2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-0.889" y="-1.905" size="0.9906" layer="21" ratio="12">TT</text>
 </package>
-<package name="TAP5-50">
+<package name="TAP5-50" urn="urn:adsk.eagle:footprint:25382/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 5.0 mm, grid 5.08 mm</description>
 <wire x1="-2.1557" y1="1.3432" x2="2.1557" y2="1.3432" width="0.1524" layer="21" curve="-116.146571"/>
@@ -3264,7 +3317,7 @@ diameter 5.0 mm, grid 5.08 mm</description>
 <text x="2.54" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-0.889" y="-2.159" size="0.9906" layer="21" ratio="12">TT</text>
 </package>
-<package name="TAP5-70">
+<package name="TAP5-70" urn="urn:adsk.eagle:footprint:25383/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 7.0 mm, grid 5.08 mm</description>
 <wire x1="-1.397" y1="0" x2="-0.508" y2="0" width="0.1524" layer="21"/>
@@ -3292,7 +3345,7 @@ diameter 7.0 mm, grid 5.08 mm</description>
 <text x="3.175" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="0.635" y="-2.413" size="0.9906" layer="21" ratio="12">TT</text>
 </package>
-<package name="TAP5-60">
+<package name="TAP5-60" urn="urn:adsk.eagle:footprint:25384/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 6.0 mm, grid 5.08 mm</description>
 <wire x1="-1.397" y1="0" x2="-0.508" y2="0" width="0.1524" layer="21"/>
@@ -3320,7 +3373,7 @@ diameter 6.0 mm, grid 5.08 mm</description>
 <text x="2.921" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="0" y="-2.54" size="0.9906" layer="21" ratio="12">TT</text>
 </package>
-<package name="TAP5-80">
+<package name="TAP5-80" urn="urn:adsk.eagle:footprint:25385/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 8.0 mm, grid 5.08 mm</description>
 <wire x1="-1.397" y1="0" x2="-0.508" y2="0" width="0.1524" layer="21"/>
@@ -3345,7 +3398,7 @@ diameter 8.0 mm, grid 5.08 mm</description>
 <text x="-2.54" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="2.032" y="1.016" size="0.9906" layer="21" ratio="12">TT</text>
 </package>
-<package name="085CS_1R">
+<package name="085CS_1R" urn="urn:adsk.eagle:footprint:25434/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt; reflow soldering&lt;p&gt;
 SMD (Chip) Standard 085 CS&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3378,7 +3431,7 @@ http://www.bccomponents.com/</description>
 <rectangle x1="3.3" y1="-1" x2="5.65" y2="1" layer="51"/>
 <rectangle x1="-5.65" y1="-1" x2="-3.3" y2="1" layer="51"/>
 </package>
-<package name="085CS_1W">
+<package name="085CS_1W" urn="urn:adsk.eagle:footprint:25435/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt; wave soldering&lt;p&gt;
 SMD (Chip) Standard 085 CS&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3413,7 +3466,7 @@ http://www.bccomponents.com/</description>
 <rectangle x1="3.3" y1="-1" x2="5.65" y2="1" layer="51"/>
 <rectangle x1="-5.65" y1="-1" x2="-3.3" y2="1" layer="51"/>
 </package>
-<package name="085CS_1AR">
+<package name="085CS_1AR" urn="urn:adsk.eagle:footprint:25436/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt; reflow soldering&lt;p&gt;
 SMD (Chip) Standard 085 CS&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3446,7 +3499,7 @@ http://www.bccomponents.com/</description>
 <rectangle x1="1.8" y1="-1" x2="4.15" y2="1" layer="51"/>
 <rectangle x1="-4.15" y1="-1" x2="-1.8" y2="1" layer="51"/>
 </package>
-<package name="085CS_1AW">
+<package name="085CS_1AW" urn="urn:adsk.eagle:footprint:25437/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt; wave soldering&lt;p&gt;
 SMD (Chip) Standard 085 CS&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3481,7 +3534,7 @@ http://www.bccomponents.com/</description>
 <rectangle x1="1.8" y1="-1" x2="4.15" y2="1" layer="51"/>
 <rectangle x1="-4.15" y1="-1" x2="-1.8" y2="1" layer="51"/>
 </package>
-<package name="139CLL-2R">
+<package name="139CLL-2R" urn="urn:adsk.eagle:footprint:25438/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt; reflow soldering&lt;p&gt;
 SMD (Chip) Long Life 139 CLL&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3516,7 +3569,7 @@ http://www.bccomponents.com/</description>
 <rectangle x1="4.5" y1="-1" x2="6.85" y2="1" layer="51"/>
 <rectangle x1="-6.85" y1="-1" x2="-4.5" y2="1" layer="51"/>
 </package>
-<package name="139CLL-2W">
+<package name="139CLL-2W" urn="urn:adsk.eagle:footprint:25439/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt; wave soldering&lt;p&gt;
 SMD (Chip) Long Life 139 CLL&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3547,7 +3600,7 @@ http://www.bccomponents.com/</description>
 <rectangle x1="4.5" y1="-1" x2="6.85" y2="1" layer="51"/>
 <rectangle x1="-6.85" y1="-1" x2="-4.5" y2="1" layer="51"/>
 </package>
-<package name="139CLL-3R">
+<package name="139CLL-3R" urn="urn:adsk.eagle:footprint:25440/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt; reflow soldering&lt;p&gt;
 SMD (Chip) Long Life 139 CLL&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3582,7 +3635,7 @@ http://www.bccomponents.com/</description>
 <rectangle x1="4.5" y1="-1" x2="6.85" y2="1" layer="51"/>
 <rectangle x1="-6.85" y1="-1" x2="-4.5" y2="1" layer="51"/>
 </package>
-<package name="139CLL-3W">
+<package name="139CLL-3W" urn="urn:adsk.eagle:footprint:25441/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt; wave soldering&lt;p&gt;
 SMD (Chip) Long Life 139 CLL&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3617,7 +3670,7 @@ http://www.bccomponents.com/</description>
 <rectangle x1="4.5" y1="-1" x2="6.85" y2="1" layer="51"/>
 <rectangle x1="-6.85" y1="-1" x2="-4.5" y2="1" layer="51"/>
 </package>
-<package name="140CLH-0810">
+<package name="140CLH-0810" urn="urn:adsk.eagle:footprint:25442/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors SMD (Chip)&lt;/b&gt;&lt;p&gt;
 Long life base plate, High temperature 140 CLH&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3640,7 +3693,7 @@ http://www.bccomponents.com/</description>
 <text x="-5.38" y="-2.74" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="0.635" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
-<package name="140CLH-1010">
+<package name="140CLH-1010" urn="urn:adsk.eagle:footprint:25443/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors SMD (Chip)&lt;/b&gt;&lt;p&gt;
 Long life base plate, High temperature 140 CLH&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3663,7 +3716,7 @@ http://www.bccomponents.com/</description>
 <text x="-2.74" y="1.93" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.375" y="-2.885" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="140CLH-1014">
+<package name="140CLH-1014" urn="urn:adsk.eagle:footprint:25444/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors SMD (Chip)&lt;/b&gt;&lt;p&gt;
 Long life base plate, High temperature 140 CLH&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3686,7 +3739,7 @@ http://www.bccomponents.com/</description>
 <text x="-2.69" y="1.98" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.225" y="-2.935" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="150CLZ-0810">
+<package name="150CLZ-0810" urn="urn:adsk.eagle:footprint:25445/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors SMD (Chip)&lt;/b&gt;&lt;p&gt;
 Long life base plate, very low impedance 150 CLZ&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3709,7 +3762,7 @@ http://www.bccomponents.com/</description>
 <text x="-5.43" y="-2.74" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="0.635" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
-<package name="150CLZ-1010">
+<package name="150CLZ-1010" urn="urn:adsk.eagle:footprint:25446/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors SMD (Chip)&lt;/b&gt;&lt;p&gt;
 Long life base plate, very low impedance 150 CLZ&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3732,7 +3785,7 @@ http://www.bccomponents.com/</description>
 <text x="-2.79" y="1.93" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.075" y="-2.885" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="150CLZ-1014">
+<package name="150CLZ-1014" urn="urn:adsk.eagle:footprint:25447/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors SMD (Chip)&lt;/b&gt;&lt;p&gt;
 Long life base plate, very low impedance 150 CLZ&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3755,7 +3808,7 @@ http://www.bccomponents.com/</description>
 <text x="-2.74" y="1.88" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.025" y="-2.935" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="153CLV-0405">
+<package name="153CLV-0405" urn="urn:adsk.eagle:footprint:25448/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
 SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3778,7 +3831,7 @@ http://www.bccomponents.com/</description>
 <text x="-2.24" y="2.48" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.275" y="-3.735" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="153CLV-0505">
+<package name="153CLV-0505" urn="urn:adsk.eagle:footprint:25449/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
 SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3801,7 +3854,7 @@ http://www.bccomponents.com/</description>
 <text x="-2.74" y="2.98" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.775" y="-4.235" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="153CLV-0605">
+<package name="153CLV-0605" urn="urn:adsk.eagle:footprint:25450/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
 SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3824,7 +3877,7 @@ http://www.bccomponents.com/</description>
 <text x="-3.39" y="3.63" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.425" y="-4.885" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="153CLV-0807">
+<package name="153CLV-0807" urn="urn:adsk.eagle:footprint:25451/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
 SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3847,7 +3900,7 @@ http://www.bccomponents.com/</description>
 <text x="-4.29" y="4.53" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.325" y="-5.785" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="153CLV-0810">
+<package name="153CLV-0810" urn="urn:adsk.eagle:footprint:25452/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
 SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3870,7 +3923,7 @@ http://www.bccomponents.com/</description>
 <text x="-4.29" y="4.53" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.325" y="-5.785" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="153CLV-1010">
+<package name="153CLV-1010" urn="urn:adsk.eagle:footprint:25453/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
 SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3893,7 +3946,7 @@ http://www.bccomponents.com/</description>
 <text x="-5.29" y="5.53" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.325" y="-6.785" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="153CLV-1012">
+<package name="153CLV-1012" urn="urn:adsk.eagle:footprint:25454/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
 SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3916,7 +3969,7 @@ http://www.bccomponents.com/</description>
 <text x="-5.29" y="5.53" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.325" y="-6.785" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="153CLV-1014">
+<package name="153CLV-1014" urn="urn:adsk.eagle:footprint:25455/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
 SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3939,7 +3992,7 @@ http://www.bccomponents.com/</description>
 <text x="-5.29" y="5.53" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.325" y="-6.785" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="175TMP-0808">
+<package name="175TMP-0808" urn="urn:adsk.eagle:footprint:25456/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
 High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3962,7 +4015,7 @@ http://www.bccomponents.com/</description>
 <text x="-4.29" y="4.53" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.325" y="-5.785" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="175TMP-0810">
+<package name="175TMP-0810" urn="urn:adsk.eagle:footprint:25457/1" library_version="1">
 <description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
 High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
 http://www.bccomponents.com/</description>
@@ -3985,7 +4038,7 @@ http://www.bccomponents.com/</description>
 <text x="-4.29" y="4.53" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.325" y="-5.785" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="A/3216-18R">
+<package name="A/3216-18R" urn="urn:adsk.eagle:footprint:25458/1" library_version="1">
 <description>&lt;b&gt;Chip Capacitor Type KEMET A / EIA 3216-18 reflow solder&lt;/b&gt;&lt;p&gt;KEMET S / EIA 3216-12</description>
 <wire x1="-1.45" y1="0.6" x2="1.45" y2="0.6" width="0.1016" layer="51"/>
 <wire x1="1.45" y1="0.6" x2="1.45" y2="-0.6" width="0.1016" layer="51"/>
@@ -3999,7 +4052,7 @@ http://www.bccomponents.com/</description>
 <rectangle x1="1.475" y1="-0.6" x2="1.6" y2="0.6" layer="51"/>
 <rectangle x1="0.8" y1="-0.625" x2="1.1" y2="0.625" layer="51"/>
 </package>
-<package name="A/3216-18W">
+<package name="A/3216-18W" urn="urn:adsk.eagle:footprint:25459/1" library_version="1">
 <description>&lt;b&gt;Chip Capacitor Type KEMET A / EIA 3216-18 Wave solder&lt;/b&gt;&lt;p&gt;
 KEMET S / EIA 3216-12</description>
 <wire x1="-1.45" y1="0.6" x2="1.45" y2="0.6" width="0.1016" layer="51"/>
@@ -4014,7 +4067,7 @@ KEMET S / EIA 3216-12</description>
 <rectangle x1="1.475" y1="-0.6" x2="1.6" y2="0.6" layer="51"/>
 <rectangle x1="0.8" y1="-0.625" x2="1.1" y2="0.625" layer="51"/>
 </package>
-<package name="T/3528-12R">
+<package name="T/3528-12R" urn="urn:adsk.eagle:footprint:25460/1" library_version="1">
 <description>&lt;b&gt;Chip Capacitor Type KEMET T / EIA 3528-12 Reflow solder&lt;/b&gt;&lt;p&gt;
 EIA 3528-12 (Kemet T, AVX T): 3.5 mm × 2.8 mm × 1.2 mm</description>
 <wire x1="-1.6" y1="1.2" x2="1.6" y2="1.2" width="0.1016" layer="51"/>
@@ -4029,7 +4082,7 @@ EIA 3528-12 (Kemet T, AVX T): 3.5 mm × 2.8 mm × 1.2 mm</description>
 <rectangle x1="1.625" y1="-0.6" x2="1.75" y2="0.6" layer="51"/>
 <rectangle x1="0.95" y1="-1.225" x2="1.25" y2="1.225" layer="51"/>
 </package>
-<package name="B/3528-21W">
+<package name="B/3528-21W" urn="urn:adsk.eagle:footprint:25461/1" library_version="1">
 <description>&lt;b&gt;Chip Capacitor Type KEMET B / EIA 3528-21 Wave solder&lt;/b&gt;&lt;p&gt;
 KEMET T / EIA 3528-12</description>
 <wire x1="-1.6" y1="1.2" x2="1.6" y2="1.2" width="0.1016" layer="51"/>
@@ -4044,7 +4097,7 @@ KEMET T / EIA 3528-12</description>
 <rectangle x1="1.625" y1="-0.6" x2="1.75" y2="0.6" layer="51"/>
 <rectangle x1="0.95" y1="-1.225" x2="1.25" y2="1.225" layer="51"/>
 </package>
-<package name="C/6032-28R">
+<package name="C/6032-28R" urn="urn:adsk.eagle:footprint:25462/1" library_version="1">
 <description>&lt;b&gt;Chip Capacitor Type KEMET C / EIA 6032-28 reflow solder&lt;/b&gt;&lt;p&gt;KEMET U / EIA 6032-15</description>
 <wire x1="-2.8" y1="1.55" x2="2.8" y2="1.55" width="0.1016" layer="51"/>
 <wire x1="2.8" y1="1.55" x2="2.8" y2="-1.55" width="0.1016" layer="51"/>
@@ -4058,7 +4111,7 @@ KEMET T / EIA 3528-12</description>
 <rectangle x1="2.85" y1="-1.1" x2="3" y2="1.1" layer="51"/>
 <rectangle x1="1.95" y1="-1.575" x2="2.45" y2="1.575" layer="51"/>
 </package>
-<package name="C/6032-28W">
+<package name="C/6032-28W" urn="urn:adsk.eagle:footprint:25463/1" library_version="1">
 <description>&lt;b&gt;Chip Capacitor Type KEMET C / EIA 6032-28 Wafe solder&lt;/b&gt;&lt;p&gt;
 KEMET U / EIA 6032-15</description>
 <wire x1="-2.8" y1="1.55" x2="2.8" y2="1.55" width="0.1016" layer="51"/>
@@ -4073,7 +4126,7 @@ KEMET U / EIA 6032-15</description>
 <rectangle x1="2.85" y1="-1.1" x2="3" y2="1.1" layer="51"/>
 <rectangle x1="1.95" y1="-1.575" x2="2.45" y2="1.575" layer="51"/>
 </package>
-<package name="D/7343-31R">
+<package name="D/7343-31R" urn="urn:adsk.eagle:footprint:25464/1" library_version="1">
 <description>&lt;b&gt;Chip Capacitor Type KEMET D / EIA 7343-21&lt;/b&gt;&lt;p&gt;KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 reflow solder</description>
 <wire x1="-3.45" y1="2.1" x2="3.45" y2="2.1" width="0.1016" layer="51"/>
 <wire x1="3.45" y1="2.1" x2="3.45" y2="-2.1" width="0.1016" layer="51"/>
@@ -4087,7 +4140,7 @@ KEMET U / EIA 6032-15</description>
 <rectangle x1="3.5" y1="-1.2" x2="3.65" y2="1.2" layer="51"/>
 <rectangle x1="2.675" y1="-2.125" x2="3.15" y2="2.125" layer="51"/>
 </package>
-<package name="D/7343-31W">
+<package name="D/7343-31W" urn="urn:adsk.eagle:footprint:25465/1" library_version="1">
 <description>&lt;b&gt;Chip Capacitor Type KEMET D / EIA 7343-21&lt;/b&gt;&lt;p&gt;
 KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <wire x1="-3.45" y1="2.1" x2="3.45" y2="2.1" width="0.1016" layer="51"/>
@@ -4102,7 +4155,7 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <rectangle x1="3.5" y1="-1.2" x2="3.65" y2="1.2" layer="51"/>
 <rectangle x1="2.675" y1="-2.125" x2="3.15" y2="2.125" layer="51"/>
 </package>
-<package name="E/7260-38R">
+<package name="E/7260-38R" urn="urn:adsk.eagle:footprint:25466/1" library_version="1">
 <description>&lt;b&gt;Chip Capacitor Type KEMET E / EIA 7260-38 reflow solder&lt;/b&gt;</description>
 <wire x1="-3.45" y1="2.95" x2="3.45" y2="2.95" width="0.1016" layer="51"/>
 <wire x1="3.45" y1="2.95" x2="3.45" y2="-2.95" width="0.1016" layer="51"/>
@@ -4116,7 +4169,7 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <rectangle x1="3.5" y1="-2.05" x2="3.65" y2="2.05" layer="51"/>
 <rectangle x1="2.675" y1="-2.975" x2="3.15" y2="2.975" layer="51"/>
 </package>
-<package name="E/7260-38W">
+<package name="E/7260-38W" urn="urn:adsk.eagle:footprint:25467/1" library_version="1">
 <description>&lt;b&gt;Chip Capacitor Type KEMET E / EIA 7260-38 Wafe solder&lt;/b&gt;</description>
 <wire x1="-3.45" y1="2.95" x2="3.45" y2="2.95" width="0.1016" layer="51"/>
 <wire x1="3.45" y1="2.95" x2="3.45" y2="-2.95" width="0.1016" layer="51"/>
@@ -4130,7 +4183,7 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <rectangle x1="3.5" y1="-2.05" x2="3.65" y2="2.05" layer="51"/>
 <rectangle x1="2.675" y1="-2.975" x2="3.15" y2="2.975" layer="51"/>
 </package>
-<package name="R/2012-12R">
+<package name="R/2012-12R" urn="urn:adsk.eagle:footprint:25468/1" library_version="1">
 <description>&lt;b&gt;Chip Capacitor Type KEMET R/EIA 2012-12 reflow solder&lt;/b&gt;</description>
 <wire x1="-0.85" y1="0.6" x2="0.85" y2="0.6" width="0.1016" layer="51"/>
 <wire x1="0.85" y1="0.6" x2="0.85" y2="-0.6" width="0.1016" layer="51"/>
@@ -4144,7 +4197,7 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <rectangle x1="0.875" y1="-0.45" x2="1" y2="0.45" layer="51"/>
 <rectangle x1="0.3" y1="-0.625" x2="0.5" y2="0.625" layer="51"/>
 </package>
-<package name="R/2012-12W">
+<package name="R/2012-12W" urn="urn:adsk.eagle:footprint:25469/1" library_version="1">
 <description>&lt;b&gt;Chip Capacitor Type KEMET R/EIA 2012-12 Wafe solder&lt;/b&gt;</description>
 <wire x1="-0.85" y1="0.6" x2="0.85" y2="0.6" width="0.1016" layer="51"/>
 <wire x1="0.85" y1="0.6" x2="0.85" y2="-0.6" width="0.1016" layer="51"/>
@@ -4158,7 +4211,7 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <rectangle x1="0.875" y1="-0.45" x2="1" y2="0.45" layer="51"/>
 <rectangle x1="0.3" y1="-0.625" x2="0.5" y2="0.625" layer="51"/>
 </package>
-<package name="PANASONIC_A">
+<package name="PANASONIC_A" urn="urn:adsk.eagle:footprint:25470/1" library_version="1">
 <description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package A&lt;/b&gt;</description>
 <wire x1="-1.6" y1="1.6" x2="0.8" y2="1.6" width="0.1016" layer="51"/>
 <wire x1="0.8" y1="1.6" x2="1.6" y2="0.8" width="0.1016" layer="51"/>
@@ -4192,7 +4245,7 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <vertex x="-0.85" y="1.05"/>
 </polygon>
 </package>
-<package name="PANASONIC_B">
+<package name="PANASONIC_B" urn="urn:adsk.eagle:footprint:25471/1" library_version="1">
 <description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package B&lt;/b&gt;</description>
 <wire x1="-2.1" y1="2.1" x2="1" y2="2.1" width="0.1016" layer="51"/>
 <wire x1="1" y1="2.1" x2="2.1" y2="1" width="0.1016" layer="51"/>
@@ -4226,7 +4279,7 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <vertex x="-1.25" y="1.4"/>
 </polygon>
 </package>
-<package name="PANASONIC_C">
+<package name="PANASONIC_C" urn="urn:adsk.eagle:footprint:25472/1" library_version="1">
 <description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package C&lt;/b&gt;</description>
 <wire x1="-2.6" y1="2.6" x2="1.25" y2="2.6" width="0.1016" layer="51"/>
 <wire x1="1.25" y1="2.6" x2="2.6" y2="1.25" width="0.1016" layer="51"/>
@@ -4262,7 +4315,7 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <vertex x="-1.6" y="-1.8"/>
 </polygon>
 </package>
-<package name="PANASONIC_D">
+<package name="PANASONIC_D" urn="urn:adsk.eagle:footprint:25473/1" library_version="1">
 <description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package D&lt;/b&gt;</description>
 <wire x1="-3.25" y1="3.25" x2="1.55" y2="3.25" width="0.1016" layer="51"/>
 <wire x1="1.55" y1="3.25" x2="3.25" y2="1.55" width="0.1016" layer="51"/>
@@ -4299,7 +4352,7 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <vertex x="-2.15" y="2.1"/>
 </polygon>
 </package>
-<package name="PANASONIC_E">
+<package name="PANASONIC_E" urn="urn:adsk.eagle:footprint:25474/1" library_version="1">
 <description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package E&lt;/b&gt;</description>
 <wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.1016" layer="51"/>
 <wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.1016" layer="51"/>
@@ -4337,7 +4390,7 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <vertex x="-2.25" y="3.15"/>
 </polygon>
 </package>
-<package name="PANASONIC_F">
+<package name="PANASONIC_F" urn="urn:adsk.eagle:footprint:25475/1" library_version="1">
 <description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package F&lt;/b&gt;</description>
 <wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.1016" layer="51"/>
 <wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.1016" layer="51"/>
@@ -4376,7 +4429,7 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <vertex x="-2.25" y="3.15"/>
 </polygon>
 </package>
-<package name="PANASONIC_G">
+<package name="PANASONIC_G" urn="urn:adsk.eagle:footprint:25476/1" library_version="1">
 <description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package G&lt;/b&gt;</description>
 <wire x1="-5.1" y1="5.1" x2="2.8" y2="5.1" width="0.1016" layer="51"/>
 <wire x1="2.8" y1="5.1" x2="5.1" y2="2.8" width="0.1016" layer="51"/>
@@ -4414,7 +4467,7 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <vertex x="-3.3" y="3.55"/>
 </polygon>
 </package>
-<package name="E1,8-4">
+<package name="E1,8-4" urn="urn:adsk.eagle:footprint:25386/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 1.8 mm, diameter 4 mm</description>
 <wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
@@ -4433,7 +4486,7 @@ grid 1.8 mm, diameter 4 mm</description>
 <text x="2.159" y="-1.778" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="51"/>
 </package>
-<package name="EB20D">
+<package name="EB20D" urn="urn:adsk.eagle:footprint:25429/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 10.16 mm, diameter 20 mm</description>
 <wire x1="-2.54" y1="0" x2="-1.5748" y2="0" width="0.254" layer="21"/>
@@ -4453,7 +4506,7 @@ grid 10.16 mm, diameter 20 mm</description>
 <text x="-5.0546" y="-5.08" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.3302" y1="-2.54" x2="1.6002" y2="2.54" layer="21"/>
 </package>
-<package name="EB22,5D">
+<package name="EB22,5D" urn="urn:adsk.eagle:footprint:25430/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 10.16 mm, diameter 22.5 mm</description>
 <wire x1="-2.54" y1="0" x2="-1.5748" y2="0" width="0.254" layer="21"/>
@@ -4473,7 +4526,7 @@ grid 10.16 mm, diameter 22.5 mm</description>
 <text x="-5.0546" y="-5.715" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.3302" y1="-2.54" x2="1.6002" y2="2.54" layer="21"/>
 </package>
-<package name="EB25D">
+<package name="EB25D" urn="urn:adsk.eagle:footprint:25431/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 10.16 mm, diameter 25 mm</description>
 <wire x1="-2.54" y1="0" x2="-1.5748" y2="0" width="0.254" layer="21"/>
@@ -4493,7 +4546,7 @@ grid 10.16 mm, diameter 25 mm</description>
 <text x="-5.0546" y="-5.715" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.3302" y1="-2.54" x2="1.6002" y2="2.54" layer="21"/>
 </package>
-<package name="EB30D">
+<package name="EB30D" urn="urn:adsk.eagle:footprint:25432/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 10.16 mm, diameter 30 mm</description>
 <wire x1="-2.54" y1="0" x2="-1.5748" y2="0" width="0.254" layer="21"/>
@@ -4513,7 +4566,7 @@ grid 10.16 mm, diameter 30 mm</description>
 <text x="-5.0546" y="-7.62" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.3302" y1="-2.54" x2="1.6002" y2="2.54" layer="21"/>
 </package>
-<package name="EB35D">
+<package name="EB35D" urn="urn:adsk.eagle:footprint:25433/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 10.16 mm, diameter 35 mm</description>
 <wire x1="-2.54" y1="0" x2="-1.5748" y2="0" width="0.254" layer="21"/>
@@ -4533,7 +4586,7 @@ grid 10.16 mm, diameter 35 mm</description>
 <text x="-5.08" y="-7.62" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.3302" y1="-2.54" x2="1.6002" y2="2.54" layer="21"/>
 </package>
-<package name="E15-5">
+<package name="E15-5" urn="urn:adsk.eagle:footprint:25387/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 15.24 mm, diameter 5 mm</description>
 <wire x1="-4.064" y1="0" x2="-3.175" y2="0" width="0.1524" layer="21"/>
@@ -4597,7 +4650,7 @@ grid 15.24 mm, diameter 5 mm</description>
 <rectangle x1="-6.477" y1="-0.254" x2="-5.715" y2="0.254" layer="21"/>
 <rectangle x1="5.715" y1="-0.254" x2="6.477" y2="0.254" layer="21"/>
 </package>
-<package name="E15-6">
+<package name="E15-6" urn="urn:adsk.eagle:footprint:25388/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 15.24 mm, diameter 6 mm</description>
 <wire x1="-4.064" y1="0" x2="-3.175" y2="0" width="0.1524" layer="21"/>
@@ -4661,7 +4714,7 @@ grid 15.24 mm, diameter 6 mm</description>
 <rectangle x1="-6.477" y1="-0.254" x2="-5.715" y2="0.254" layer="21"/>
 <rectangle x1="5.715" y1="-0.254" x2="6.477" y2="0.254" layer="21"/>
 </package>
-<package name="E15-9">
+<package name="E15-9" urn="urn:adsk.eagle:footprint:25389/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 15.24 mm, diameter 9 mm</description>
 <wire x1="-4.445" y1="0" x2="-3.556" y2="0" width="0.1524" layer="21"/>
@@ -4725,7 +4778,7 @@ grid 15.24 mm, diameter 9 mm</description>
 <rectangle x1="6.096" y1="-0.254" x2="6.477" y2="0.254" layer="21"/>
 <rectangle x1="-6.477" y1="-0.254" x2="-6.096" y2="0.254" layer="21"/>
 </package>
-<package name="E2,5-6E">
+<package name="E2,5-6E" urn="urn:adsk.eagle:footprint:25478/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.54 mm, diameter 6 mm</description>
 <wire x1="-2.159" y1="0" x2="-2.667" y2="0" width="0.1524" layer="21"/>
@@ -4744,7 +4797,7 @@ grid 2.54 mm, diameter 6 mm</description>
 <text x="2.667" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
 </package>
-<package name="E2-4">
+<package name="E2-4" urn="urn:adsk.eagle:footprint:25395/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2 mm, diameter 4 mm</description>
 <wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
@@ -4764,7 +4817,7 @@ grid 2 mm, diameter 4 mm</description>
 <text x="2.159" y="-2.159" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="51"/>
 </package>
-<package name="E2-5">
+<package name="E2-5" urn="urn:adsk.eagle:footprint:25396/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.032 mm, diameter 5 mm</description>
 <wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
@@ -4783,7 +4836,7 @@ grid 2.032 mm, diameter 5 mm</description>
 <text x="2.54" y="-2.159" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="51"/>
 </package>
-<package name="E2,5RE">
+<package name="E2,5RE" urn="urn:adsk.eagle:footprint:25394/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.54 mm, diameter 4 mm,</description>
 <wire x1="-0.127" y1="0" x2="0.0762" y2="0" width="0.6096" layer="21"/>
@@ -4797,7 +4850,7 @@ grid 2.54 mm, diameter 4 mm,</description>
 <text x="0.635" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.635" y="-2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="E2,5-5">
+<package name="E2,5-5" urn="urn:adsk.eagle:footprint:25391/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.54 mm, diameter 5 mm</description>
 <wire x1="-1.651" y1="1.27" x2="-1.397" y2="1.27" width="0.1524" layer="21"/>
@@ -4818,7 +4871,7 @@ grid 2.54 mm, diameter 5 mm</description>
 <text x="2.413" y="-2.413" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
 </package>
-<package name="E2,5-4R">
+<package name="E2,5-4R" urn="urn:adsk.eagle:footprint:25390/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.54 mm, diameter 4 mm</description>
 <wire x1="-0.127" y1="0" x2="0.0762" y2="0" width="0.6096" layer="21"/>
@@ -4832,7 +4885,7 @@ grid 2.54 mm, diameter 4 mm</description>
 <text x="0.762" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.762" y="-2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="E2,5-6">
+<package name="E2,5-6" urn="urn:adsk.eagle:footprint:25392/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.54 mm, diameter 6 mm</description>
 <wire x1="-2.032" y1="1.27" x2="-1.651" y2="1.27" width="0.1524" layer="21"/>
@@ -4853,7 +4906,7 @@ grid 2.54 mm, diameter 6 mm</description>
 <text x="2.667" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
 </package>
-<package name="E2,5-7">
+<package name="E2,5-7" urn="urn:adsk.eagle:footprint:25393/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.54 mm, diameter 7 mm</description>
 <wire x1="-3.048" y1="0" x2="-2.286" y2="0" width="0.1524" layer="21"/>
@@ -4872,7 +4925,7 @@ grid 2.54 mm, diameter 7 mm</description>
 <text x="3.048" y="-3.175" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
 </package>
-<package name="E22-10">
+<package name="E22-10" urn="urn:adsk.eagle:footprint:25397/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 22.86 mm, diameter 10 mm</description>
 <wire x1="-6.35" y1="5.08" x2="8.509" y2="5.08" width="0.1524" layer="21"/>
@@ -4935,7 +4988,7 @@ grid 22.86 mm, diameter 10 mm</description>
 <rectangle x1="-9.779" y1="-0.381" x2="-8.89" y2="0.381" layer="21"/>
 <rectangle x1="8.89" y1="-0.381" x2="9.779" y2="0.381" layer="21"/>
 </package>
-<package name="E22-6">
+<package name="E22-6" urn="urn:adsk.eagle:footprint:25398/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 22.86 mm, diameter 6 mm</description>
 <wire x1="-6.35" y1="3.175" x2="8.509" y2="3.175" width="0.1524" layer="21"/>
@@ -4998,7 +5051,7 @@ grid 22.86 mm, diameter 6 mm</description>
 <rectangle x1="-9.779" y1="-0.381" x2="-8.89" y2="0.381" layer="21"/>
 <rectangle x1="8.89" y1="-0.381" x2="9.779" y2="0.381" layer="21"/>
 </package>
-<package name="E22-9">
+<package name="E22-9" urn="urn:adsk.eagle:footprint:25399/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 22.86 mm, diameter 9 mm</description>
 <wire x1="-6.35" y1="4.445" x2="8.509" y2="4.445" width="0.1524" layer="21"/>
@@ -5061,7 +5114,7 @@ grid 22.86 mm, diameter 9 mm</description>
 <rectangle x1="-9.779" y1="-0.381" x2="-8.89" y2="0.381" layer="21"/>
 <rectangle x1="8.89" y1="-0.381" x2="9.779" y2="0.381" layer="21"/>
 </package>
-<package name="E25-10">
+<package name="E25-10" urn="urn:adsk.eagle:footprint:25401/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 25.4 mm, diameter 10 mm</description>
 <wire x1="-10.16" y1="4.826" x2="-9.906" y2="5.08" width="0.1524" layer="21"/>
@@ -5125,7 +5178,7 @@ grid 25.4 mm, diameter 10 mm</description>
 <rectangle x1="-11.049" y1="-0.381" x2="-10.16" y2="0.381" layer="21"/>
 <rectangle x1="10.16" y1="-0.381" x2="11.049" y2="0.381" layer="21"/>
 </package>
-<package name="E25-9">
+<package name="E25-9" urn="urn:adsk.eagle:footprint:25402/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 25.4 mm, diameter 9 mm</description>
 <wire x1="-10.16" y1="4.191" x2="-9.906" y2="4.445" width="0.1524" layer="21"/>
@@ -5189,7 +5242,7 @@ grid 25.4 mm, diameter 9 mm</description>
 <rectangle x1="-11.049" y1="-0.381" x2="-10.16" y2="0.381" layer="21"/>
 <rectangle x1="10.16" y1="-0.381" x2="11.049" y2="0.381" layer="21"/>
 </package>
-<package name="E3,5-10">
+<package name="E3,5-10" urn="urn:adsk.eagle:footprint:25400/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 3.5 mm, diameter 10 mm</description>
 <wire x1="-3.429" y1="1.143" x2="-2.667" y2="1.143" width="0.1524" layer="21"/>
@@ -5208,7 +5261,7 @@ grid 3.5 mm, diameter 10 mm</description>
 <text x="-3.302" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
 </package>
-<package name="E30-10">
+<package name="E30-10" urn="urn:adsk.eagle:footprint:25404/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 30.48 mm, diameter 10 mm</description>
 <wire x1="12.7" y1="4.699" x2="12.7" y2="-4.699" width="0.1524" layer="21"/>
@@ -5271,7 +5324,7 @@ grid 30.48 mm, diameter 10 mm</description>
 <rectangle x1="-13.462" y1="-0.381" x2="-12.7" y2="0.381" layer="21"/>
 <rectangle x1="12.7" y1="-0.381" x2="13.462" y2="0.381" layer="21"/>
 </package>
-<package name="E30-12">
+<package name="E30-12" urn="urn:adsk.eagle:footprint:25405/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 30.48 mm, diameter 12 mm</description>
 <wire x1="12.7" y1="5.969" x2="12.7" y2="-5.969" width="0.1524" layer="21"/>
@@ -5334,7 +5387,7 @@ grid 30.48 mm, diameter 12 mm</description>
 <rectangle x1="-13.462" y1="-0.381" x2="-12.7" y2="0.381" layer="21"/>
 <rectangle x1="12.7" y1="-0.381" x2="13.462" y2="0.381" layer="21"/>
 </package>
-<package name="E30-16">
+<package name="E30-16" urn="urn:adsk.eagle:footprint:25406/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 30.48 mm, diameter 16 mm</description>
 <wire x1="12.7" y1="7.747" x2="12.7" y2="-7.62" width="0.1524" layer="21"/>
@@ -5397,7 +5450,7 @@ grid 30.48 mm, diameter 16 mm</description>
 <rectangle x1="-13.462" y1="-0.381" x2="-12.7" y2="0.381" layer="21"/>
 <rectangle x1="12.7" y1="-0.381" x2="13.462" y2="0.381" layer="21"/>
 </package>
-<package name="E35-12">
+<package name="E35-12" urn="urn:adsk.eagle:footprint:25407/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 35.56 mm, diameter 12 mm</description>
 <wire x1="15.24" y1="5.969" x2="15.24" y2="-5.969" width="0.1524" layer="21"/>
@@ -5460,7 +5513,7 @@ grid 35.56 mm, diameter 12 mm</description>
 <rectangle x1="-16.129" y1="-0.381" x2="-15.24" y2="0.381" layer="21"/>
 <rectangle x1="15.24" y1="-0.381" x2="16.129" y2="0.381" layer="21"/>
 </package>
-<package name="E35-14">
+<package name="E35-14" urn="urn:adsk.eagle:footprint:25408/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 30.48 mm, diameter 14 mm</description>
 <wire x1="15.24" y1="7.239" x2="15.24" y2="-7.239" width="0.1524" layer="21"/>
@@ -5523,7 +5576,7 @@ grid 30.48 mm, diameter 14 mm</description>
 <rectangle x1="-16.129" y1="-0.381" x2="-15.24" y2="0.381" layer="21"/>
 <rectangle x1="15.24" y1="-0.381" x2="16.129" y2="0.381" layer="21"/>
 </package>
-<package name="E35-16">
+<package name="E35-16" urn="urn:adsk.eagle:footprint:25409/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 30.48 mm, diameter 16 mm</description>
 <wire x1="15.24" y1="7.874" x2="15.24" y2="-7.874" width="0.1524" layer="21"/>
@@ -5586,7 +5639,7 @@ grid 30.48 mm, diameter 16 mm</description>
 <rectangle x1="-16.129" y1="-0.381" x2="-15.24" y2="0.381" layer="21"/>
 <rectangle x1="15.24" y1="-0.381" x2="16.129" y2="0.381" layer="21"/>
 </package>
-<package name="E35-18">
+<package name="E35-18" urn="urn:adsk.eagle:footprint:25410/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 30.48 mm, diameter 18 mm</description>
 <wire x1="15.24" y1="9.779" x2="15.24" y2="-9.779" width="0.1524" layer="21"/>
@@ -5649,7 +5702,7 @@ grid 30.48 mm, diameter 18 mm</description>
 <rectangle x1="-16.002" y1="-0.381" x2="-15.24" y2="0.381" layer="21"/>
 <rectangle x1="15.24" y1="-0.381" x2="16.002" y2="0.381" layer="21"/>
 </package>
-<package name="E45-16">
+<package name="E45-16" urn="urn:adsk.eagle:footprint:25411/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 45.72 mm, diameter 16 mm</description>
 <wire x1="-20.32" y1="7.747" x2="-19.812" y2="8.255" width="0.1524" layer="21"/>
@@ -5716,7 +5769,7 @@ grid 45.72 mm, diameter 16 mm</description>
 <rectangle x1="20.32" y1="-0.381" x2="20.828" y2="0.381" layer="21"/>
 <rectangle x1="-20.828" y1="-0.381" x2="-20.32" y2="0.381" layer="21"/>
 </package>
-<package name="E45-18">
+<package name="E45-18" urn="urn:adsk.eagle:footprint:25412/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 45.72 mm, diameter 18 mm</description>
 <wire x1="-20.32" y1="8.382" x2="-19.812" y2="8.89" width="0.1524" layer="21"/>
@@ -5783,7 +5836,7 @@ grid 45.72 mm, diameter 18 mm</description>
 <rectangle x1="20.32" y1="-0.381" x2="20.828" y2="0.381" layer="21"/>
 <rectangle x1="-20.828" y1="-0.381" x2="-20.32" y2="0.381" layer="21"/>
 </package>
-<package name="E45-21">
+<package name="E45-21" urn="urn:adsk.eagle:footprint:25413/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 45.72 mm, diameter 21 mm</description>
 <wire x1="-20.32" y1="10.287" x2="-19.812" y2="10.795" width="0.1524" layer="21"/>
@@ -5850,7 +5903,7 @@ grid 45.72 mm, diameter 21 mm</description>
 <rectangle x1="20.32" y1="-0.381" x2="20.828" y2="0.381" layer="21"/>
 <rectangle x1="-20.828" y1="-0.381" x2="-20.32" y2="0.381" layer="21"/>
 </package>
-<package name="E45-22">
+<package name="E45-22" urn="urn:adsk.eagle:footprint:25414/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 45.72 mm, diameter 22 mm</description>
 <wire x1="-20.32" y1="10.541" x2="-19.812" y2="11.049" width="0.1524" layer="21"/>
@@ -5917,7 +5970,7 @@ grid 45.72 mm, diameter 22 mm</description>
 <rectangle x1="20.32" y1="-0.381" x2="20.828" y2="0.381" layer="21"/>
 <rectangle x1="-20.828" y1="-0.381" x2="-20.32" y2="0.381" layer="21"/>
 </package>
-<package name="E45-25">
+<package name="E45-25" urn="urn:adsk.eagle:footprint:25415/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 45.72 mm, diameter 25 mm</description>
 <wire x1="-20.32" y1="12.192" x2="-19.812" y2="12.7" width="0.1524" layer="21"/>
@@ -5984,7 +6037,7 @@ grid 45.72 mm, diameter 25 mm</description>
 <rectangle x1="20.32" y1="-0.381" x2="20.828" y2="0.381" layer="21"/>
 <rectangle x1="-20.828" y1="-0.381" x2="-20.32" y2="0.381" layer="21"/>
 </package>
-<package name="E5-10,5">
+<package name="E5-10,5" urn="urn:adsk.eagle:footprint:25416/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5.08 mm, diameter 10.5 mm</description>
 <wire x1="-1.143" y1="0" x2="-0.889" y2="0" width="0.1524" layer="21"/>
@@ -6005,7 +6058,7 @@ grid 5.08 mm, diameter 10.5 mm</description>
 <text x="-3.1242" y="-3.2258" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.143" x2="0.889" y2="1.143" layer="21"/>
 </package>
-<package name="E5-13">
+<package name="E5-13" urn="urn:adsk.eagle:footprint:25417/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5.08 mm, diameter 13 mm</description>
 <wire x1="-1.143" y1="0" x2="-0.889" y2="0" width="0.1524" layer="21"/>
@@ -6026,7 +6079,7 @@ grid 5.08 mm, diameter 13 mm</description>
 <text x="-4.572" y="-3.937" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.889" y2="1.27" layer="21"/>
 </package>
-<package name="E5-4">
+<package name="E5-4" urn="urn:adsk.eagle:footprint:25418/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5.05 mm, diameter 4 mm</description>
 <wire x1="-1.6985" y1="1.1153" x2="1.6985" y2="1.1153" width="0.1524" layer="21" curve="-113.419135"/>
@@ -6048,7 +6101,7 @@ grid 5.05 mm, diameter 4 mm</description>
 <text x="2.159" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="21"/>
 </package>
-<package name="E5-5">
+<package name="E5-5" urn="urn:adsk.eagle:footprint:25419/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5.08 mm, diameter 5 mm</description>
 <wire x1="-2.1557" y1="1.3432" x2="2.1557" y2="1.3432" width="0.1524" layer="21" curve="-116.146571"/>
@@ -6070,7 +6123,7 @@ grid 5.08 mm, diameter 5 mm</description>
 <text x="2.54" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="21"/>
 </package>
-<package name="E5-6">
+<package name="E5-6" urn="urn:adsk.eagle:footprint:25420/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5.08 mm, diameter 6 mm</description>
 <wire x1="-2.8702" y1="1.3574" x2="2.8702" y2="1.3574" width="0.1524" layer="21" curve="-129.378377"/>
@@ -6092,7 +6145,7 @@ grid 5.08 mm, diameter 6 mm</description>
 <text x="3.048" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="21"/>
 </package>
-<package name="E5-8,5">
+<package name="E5-8,5" urn="urn:adsk.eagle:footprint:25421/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5.08 mm, diameter 8.5 mm</description>
 <wire x1="-1.143" y1="0" x2="-0.889" y2="0" width="0.1524" layer="21"/>
@@ -6113,7 +6166,7 @@ grid 5.08 mm, diameter 8.5 mm</description>
 <text x="-2.5146" y="-3.0226" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.143" x2="0.889" y2="1.143" layer="21"/>
 </package>
-<package name="E5R">
+<package name="E5R" urn="urn:adsk.eagle:footprint:25426/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5.08 mm, diameter 9 mm</description>
 <wire x1="-0.889" y1="0" x2="0.9398" y2="0" width="0.6096" layer="21"/>
@@ -6128,7 +6181,7 @@ grid 5.08 mm, diameter 9 mm</description>
 <text x="1.651" y="2.4638" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="E50-25">
+<package name="E50-25" urn="urn:adsk.eagle:footprint:25422/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 50 mm, diameter 25 mm</description>
 <wire x1="22.225" y1="-12.192" x2="21.844" y2="-12.573" width="0.1524" layer="21"/>
@@ -6201,7 +6254,7 @@ grid 50 mm, diameter 25 mm</description>
 <rectangle x1="22.225" y1="-0.381" x2="22.733" y2="0.381" layer="21"/>
 <rectangle x1="-23.368" y1="-0.381" x2="-22.86" y2="0.381" layer="21"/>
 </package>
-<package name="E50-30">
+<package name="E50-30" urn="urn:adsk.eagle:footprint:25423/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 50 mm, diameter 30 mm</description>
 <wire x1="22.225" y1="-14.732" x2="21.844" y2="-15.113" width="0.1524" layer="21"/>
@@ -6274,7 +6327,7 @@ grid 50 mm, diameter 30 mm</description>
 <rectangle x1="22.225" y1="-0.381" x2="22.733" y2="0.381" layer="21"/>
 <rectangle x1="-23.368" y1="-0.381" x2="-22.86" y2="0.381" layer="21"/>
 </package>
-<package name="E55-25">
+<package name="E55-25" urn="urn:adsk.eagle:footprint:25424/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 55 mm, diameter 25 mm</description>
 <wire x1="-25.4" y1="12.192" x2="-24.892" y2="12.7" width="0.1524" layer="21"/>
@@ -6341,7 +6394,7 @@ grid 55 mm, diameter 25 mm</description>
 <rectangle x1="25.4" y1="-0.381" x2="25.908" y2="0.381" layer="21"/>
 <rectangle x1="-25.908" y1="-0.381" x2="-25.4" y2="0.381" layer="21"/>
 </package>
-<package name="E55-30">
+<package name="E55-30" urn="urn:adsk.eagle:footprint:25425/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 55 mm, diameter 30 mm</description>
 <wire x1="-25.4" y1="14.732" x2="-24.892" y2="15.24" width="0.1524" layer="21"/>
@@ -6408,7 +6461,7 @@ grid 55 mm, diameter 30 mm</description>
 <rectangle x1="25.4" y1="-0.381" x2="25.908" y2="0.381" layer="21"/>
 <rectangle x1="-25.908" y1="-0.381" x2="-25.4" y2="0.381" layer="21"/>
 </package>
-<package name="E7,5-16">
+<package name="E7,5-16" urn="urn:adsk.eagle:footprint:25427/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 7.62 mm, diameter 16 mm</description>
 <wire x1="0.635" y1="0" x2="2.032" y2="0" width="0.1524" layer="21"/>
@@ -6427,7 +6480,7 @@ grid 7.62 mm, diameter 16 mm</description>
 <text x="-5.08" y="-4.2926" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.905" x2="0.889" y2="1.905" layer="21"/>
 </package>
-<package name="E7,5-18">
+<package name="E7,5-18" urn="urn:adsk.eagle:footprint:25428/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 7.62 mm, diameter 18 mm</description>
 <wire x1="0.635" y1="0" x2="2.032" y2="0" width="0.1524" layer="21"/>
@@ -6446,7 +6499,7 @@ grid 7.62 mm, diameter 18 mm</description>
 <text x="-5.08" y="-4.2926" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.905" x2="0.889" y2="1.905" layer="21"/>
 </package>
-<package name="TT2D5L">
+<package name="TT2D5L" urn="urn:adsk.eagle:footprint:25477/1" library_version="1">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 5 mm, grid 2.54 mm</description>
 <wire x1="-2.54" y1="8.89" x2="2.54" y2="8.89" width="0.1524" layer="21" curve="-180"/>
@@ -6476,24 +6529,554 @@ diameter 5 mm, grid 2.54 mm</description>
 <rectangle x1="0" y1="1.6002" x2="0.4318" y2="3.4798" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="E3,5-8" urn="urn:adsk.eagle:package:25842/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 3.5 mm, diameter 8 mm</description>
+</package3d>
+<package3d name="CT3216" urn="urn:adsk.eagle:package:25799/1" type="box" library_version="1">
+<description>TANTALUM CAPACITOR</description>
+</package3d>
+<package3d name="CT3528" urn="urn:adsk.eagle:package:25815/1" type="box" library_version="1">
+<description>TANTALUM CAPACITOR</description>
+</package3d>
+<package3d name="CT6032" urn="urn:adsk.eagle:package:25795/1" type="box" library_version="1">
+<description>TANTALUM CAPACITOR</description>
+</package3d>
+<package3d name="CT7343" urn="urn:adsk.eagle:package:25791/1" type="box" library_version="1">
+<description>CAPACITOR
+chip
+tantalum</description>
+</package3d>
+<package3d name="B45181A" urn="urn:adsk.eagle:package:25796/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+body 5 x 5 mm, rectangle, grid 2.54 mm</description>
+</package3d>
+<package3d name="B45181B" urn="urn:adsk.eagle:package:25794/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+body 7.6 x 5 mm, rectangle, grid 5.08 mm</description>
+</package3d>
+<package3d name="B45181C" urn="urn:adsk.eagle:package:25789/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+body 12.7 x 7.6 mm, rectangle, grid 10.16 mm</description>
+</package3d>
+<package3d name="B45181D" urn="urn:adsk.eagle:package:25806/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+body 12.5 x 12.5 mm, rectangle, grid 10.16 mm</description>
+</package3d>
+<package3d name="TT2D4" urn="urn:adsk.eagle:package:25816/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 4 mm, grid 2.54 mm</description>
+</package3d>
+<package3d name="TT2D4L" urn="urn:adsk.eagle:package:25798/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 4 mm, grid 2.54 mm</description>
+</package3d>
+<package3d name="TT2D5" urn="urn:adsk.eagle:package:25805/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 5 mm, grid 2.54 mm</description>
+</package3d>
+<package3d name="TT2D6" urn="urn:adsk.eagle:package:25801/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 6 mm, grid 2.54 mm</description>
+</package3d>
+<package3d name="TT2D6L" urn="urn:adsk.eagle:package:25810/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 6 mm, grid 2.54 mm</description>
+</package3d>
+<package3d name="TT2D7L" urn="urn:adsk.eagle:package:25814/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 7 mm, grid 2.54 mm</description>
+</package3d>
+<package3d name="TT2D7" urn="urn:adsk.eagle:package:25793/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 7 mm, grid 2.54 mm</description>
+</package3d>
+<package3d name="TT5D10" urn="urn:adsk.eagle:package:25790/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 10 mm, grid 5.08 mm</description>
+</package3d>
+<package3d name="TT5D11" urn="urn:adsk.eagle:package:25817/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 11 mm, grid 5.08 mm</description>
+</package3d>
+<package3d name="TT5D11L" urn="urn:adsk.eagle:package:25792/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 11 mm, grid 5.08 mm</description>
+</package3d>
+<package3d name="TT5D6" urn="urn:adsk.eagle:package:25797/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 6 mm, grid 5.08 mm</description>
+</package3d>
+<package3d name="TT5D6L" urn="urn:adsk.eagle:package:25800/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 6 mm, grid 5.08 mm</description>
+</package3d>
+<package3d name="TT5D7" urn="urn:adsk.eagle:package:25809/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 7 mm, grid 5.08 mm</description>
+</package3d>
+<package3d name="TT5D7L" urn="urn:adsk.eagle:package:25808/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 7 mm, grid 5.08 mm</description>
+</package3d>
+<package3d name="TT5D9" urn="urn:adsk.eagle:package:25811/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 9 mm, grid 5.08 mm</description>
+</package3d>
+<package3d name="TT5D9L" urn="urn:adsk.eagle:package:25802/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 9 mm, grid 5.08 mm</description>
+</package3d>
+<package3d name="ETR1" urn="urn:adsk.eagle:package:25813/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+rectangle, grid 2.54 mm</description>
+</package3d>
+<package3d name="ETR2" urn="urn:adsk.eagle:package:25834/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+rectangle, grid 5.08 mm</description>
+</package3d>
+<package3d name="ETR3" urn="urn:adsk.eagle:package:25804/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+rectangle, grid 5.08 mm</description>
+</package3d>
+<package3d name="ETR4" urn="urn:adsk.eagle:package:25803/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+rectangle, grid 10.16 mm</description>
+</package3d>
+<package3d name="ETR5" urn="urn:adsk.eagle:package:25812/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+rectangle, grid 10.16 mm</description>
+</package3d>
+<package3d name="P128-35" urn="urn:adsk.eagle:package:25807/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR</description>
+</package3d>
+<package3d name="P128-40" urn="urn:adsk.eagle:package:25820/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR</description>
+</package3d>
+<package3d name="P128-50" urn="urn:adsk.eagle:package:25818/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR</description>
+</package3d>
+<package3d name="P128-60" urn="urn:adsk.eagle:package:25819/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR</description>
+</package3d>
+<package3d name="TAP5-45" urn="urn:adsk.eagle:package:25824/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 4.5 mm, grid 5.08 mm</description>
+</package3d>
+<package3d name="TAP5-50" urn="urn:adsk.eagle:package:25821/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 5.0 mm, grid 5.08 mm</description>
+</package3d>
+<package3d name="TAP5-70" urn="urn:adsk.eagle:package:25822/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 7.0 mm, grid 5.08 mm</description>
+</package3d>
+<package3d name="TAP5-60" urn="urn:adsk.eagle:package:25823/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 6.0 mm, grid 5.08 mm</description>
+</package3d>
+<package3d name="TAP5-80" urn="urn:adsk.eagle:package:25826/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 8.0 mm, grid 5.08 mm</description>
+</package3d>
+<package3d name="085CS_1R" urn="urn:adsk.eagle:package:25874/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors reflow soldering
+SMD (Chip) Standard 085 CS
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="085CS_1W" urn="urn:adsk.eagle:package:25873/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors wave soldering
+SMD (Chip) Standard 085 CS
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="085CS_1AR" urn="urn:adsk.eagle:package:25875/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors reflow soldering
+SMD (Chip) Standard 085 CS
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="085CS_1AW" urn="urn:adsk.eagle:package:25876/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors wave soldering
+SMD (Chip) Standard 085 CS
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="139CLL-2R" urn="urn:adsk.eagle:package:25877/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors reflow soldering
+SMD (Chip) Long Life 139 CLL
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="139CLL-2W" urn="urn:adsk.eagle:package:25880/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors wave soldering
+SMD (Chip) Long Life 139 CLL
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="139CLL-3R" urn="urn:adsk.eagle:package:25884/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors reflow soldering
+SMD (Chip) Long Life 139 CLL
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="139CLL-3W" urn="urn:adsk.eagle:package:25882/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors wave soldering
+SMD (Chip) Long Life 139 CLL
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="140CLH-0810" urn="urn:adsk.eagle:package:25881/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, High temperature 140 CLH
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="140CLH-1010" urn="urn:adsk.eagle:package:25883/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, High temperature 140 CLH
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="140CLH-1014" urn="urn:adsk.eagle:package:25886/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, High temperature 140 CLH
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="150CLZ-0810" urn="urn:adsk.eagle:package:25885/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, very low impedance 150 CLZ
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="150CLZ-1010" urn="urn:adsk.eagle:package:25887/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, very low impedance 150 CLZ
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="150CLZ-1014" urn="urn:adsk.eagle:package:25888/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, very low impedance 150 CLZ
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="153CLV-0405" urn="urn:adsk.eagle:package:25891/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="153CLV-0505" urn="urn:adsk.eagle:package:25890/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="153CLV-0605" urn="urn:adsk.eagle:package:25889/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="153CLV-0807" urn="urn:adsk.eagle:package:25892/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="153CLV-0810" urn="urn:adsk.eagle:package:25893/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="153CLV-1010" urn="urn:adsk.eagle:package:25894/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="153CLV-1012" urn="urn:adsk.eagle:package:25895/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="153CLV-1014" urn="urn:adsk.eagle:package:25897/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="175TMP-0808" urn="urn:adsk.eagle:package:25896/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors
+High Temperature solid electrolytic SMD 175 TMP
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="175TMP-0810" urn="urn:adsk.eagle:package:25899/1" type="box" library_version="1">
+<description>Aluminum electrolytic capacitors
+High Temperature solid electrolytic SMD 175 TMP
+http://www.bccomponents.com/</description>
+</package3d>
+<package3d name="A/3216-18R" urn="urn:adsk.eagle:package:25898/1" type="box" library_version="1">
+<description>Chip Capacitor Type KEMET A / EIA 3216-18 reflow solderKEMET S / EIA 3216-12</description>
+</package3d>
+<package3d name="A/3216-18W" urn="urn:adsk.eagle:package:25908/1" type="box" library_version="1">
+<description>Chip Capacitor Type KEMET A / EIA 3216-18 Wave solder
+KEMET S / EIA 3216-12</description>
+</package3d>
+<package3d name="T/3528-12R" urn="urn:adsk.eagle:package:25903/1" type="box" library_version="1">
+<description>Chip Capacitor Type KEMET T / EIA 3528-12 Reflow solder
+EIA 3528-12 (Kemet T, AVX T): 3.5 mm × 2.8 mm × 1.2 mm</description>
+</package3d>
+<package3d name="B/3528-21W" urn="urn:adsk.eagle:package:25900/1" type="box" library_version="1">
+<description>Chip Capacitor Type KEMET B / EIA 3528-21 Wave solder
+KEMET T / EIA 3528-12</description>
+</package3d>
+<package3d name="C/6032-28R" urn="urn:adsk.eagle:package:25901/1" type="box" library_version="1">
+<description>Chip Capacitor Type KEMET C / EIA 6032-28 reflow solderKEMET U / EIA 6032-15</description>
+</package3d>
+<package3d name="C/6032-28W" urn="urn:adsk.eagle:package:25902/1" type="box" library_version="1">
+<description>Chip Capacitor Type KEMET C / EIA 6032-28 Wafe solder
+KEMET U / EIA 6032-15</description>
+</package3d>
+<package3d name="D/7343-31R" urn="urn:adsk.eagle:package:25905/1" type="box" library_version="1">
+<description>Chip Capacitor Type KEMET D / EIA 7343-21KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 reflow solder</description>
+</package3d>
+<package3d name="D/7343-31W" urn="urn:adsk.eagle:package:25904/1" type="box" library_version="1">
+<description>Chip Capacitor Type KEMET D / EIA 7343-21
+KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
+</package3d>
+<package3d name="E/7260-38R" urn="urn:adsk.eagle:package:25906/1" type="box" library_version="1">
+<description>Chip Capacitor Type KEMET E / EIA 7260-38 reflow solder</description>
+</package3d>
+<package3d name="E/7260-38W" urn="urn:adsk.eagle:package:25909/1" type="box" library_version="1">
+<description>Chip Capacitor Type KEMET E / EIA 7260-38 Wafe solder</description>
+</package3d>
+<package3d name="R/2012-12R" urn="urn:adsk.eagle:package:25907/1" type="box" library_version="1">
+<description>Chip Capacitor Type KEMET R/EIA 2012-12 reflow solder</description>
+</package3d>
+<package3d name="R/2012-12W" urn="urn:adsk.eagle:package:25910/1" type="box" library_version="1">
+<description>Chip Capacitor Type KEMET R/EIA 2012-12 Wafe solder</description>
+</package3d>
+<package3d name="PANASONIC_A" urn="urn:adsk.eagle:package:25912/1" type="box" library_version="1">
+<description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package A</description>
+</package3d>
+<package3d name="PANASONIC_B" urn="urn:adsk.eagle:package:25911/1" type="box" library_version="1">
+<description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package B</description>
+</package3d>
+<package3d name="PANASONIC_C" urn="urn:adsk.eagle:package:25913/1" type="box" library_version="1">
+<description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package C</description>
+</package3d>
+<package3d name="PANASONIC_D" urn="urn:adsk.eagle:package:25914/1" type="box" library_version="1">
+<description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package D</description>
+</package3d>
+<package3d name="PANASONIC_E" urn="urn:adsk.eagle:package:25915/1" type="box" library_version="1">
+<description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package E</description>
+</package3d>
+<package3d name="PANASONIC_F" urn="urn:adsk.eagle:package:25916/1" type="box" library_version="1">
+<description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package F</description>
+</package3d>
+<package3d name="PANASONIC_G" urn="urn:adsk.eagle:package:25917/1" type="box" library_version="1">
+<description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package G</description>
+</package3d>
+<package3d name="E1,8-4" urn="urn:adsk.eagle:package:25825/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 1.8 mm, diameter 4 mm</description>
+</package3d>
+<package3d name="EB20D" urn="urn:adsk.eagle:package:25869/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 10.16 mm, diameter 20 mm</description>
+</package3d>
+<package3d name="EB22,5D" urn="urn:adsk.eagle:package:25879/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 10.16 mm, diameter 22.5 mm</description>
+</package3d>
+<package3d name="EB25D" urn="urn:adsk.eagle:package:25878/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 10.16 mm, diameter 25 mm</description>
+</package3d>
+<package3d name="EB30D" urn="urn:adsk.eagle:package:25871/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 10.16 mm, diameter 30 mm</description>
+</package3d>
+<package3d name="EB35D" urn="urn:adsk.eagle:package:25872/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 10.16 mm, diameter 35 mm</description>
+</package3d>
+<package3d name="E15-5" urn="urn:adsk.eagle:package:25829/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 15.24 mm, diameter 5 mm</description>
+</package3d>
+<package3d name="E15-6" urn="urn:adsk.eagle:package:25840/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 15.24 mm, diameter 6 mm</description>
+</package3d>
+<package3d name="E15-9" urn="urn:adsk.eagle:package:25828/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 15.24 mm, diameter 9 mm</description>
+</package3d>
+<package3d name="E2,5-6E" urn="urn:adsk.eagle:package:25924/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 2.54 mm, diameter 6 mm</description>
+</package3d>
+<package3d name="E2-4" urn="urn:adsk.eagle:package:25835/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 2 mm, diameter 4 mm</description>
+</package3d>
+<package3d name="E2-5" urn="urn:adsk.eagle:package:25833/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 2.032 mm, diameter 5 mm</description>
+</package3d>
+<package3d name="E2,5RE" urn="urn:adsk.eagle:package:25831/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 2.54 mm, diameter 4 mm,</description>
+</package3d>
+<package3d name="E2,5-5" urn="urn:adsk.eagle:package:25841/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 2.54 mm, diameter 5 mm</description>
+</package3d>
+<package3d name="E2,5-4R" urn="urn:adsk.eagle:package:25827/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 2.54 mm, diameter 4 mm</description>
+</package3d>
+<package3d name="E2,5-6" urn="urn:adsk.eagle:package:25832/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 2.54 mm, diameter 6 mm</description>
+</package3d>
+<package3d name="E2,5-7" urn="urn:adsk.eagle:package:25830/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 2.54 mm, diameter 7 mm</description>
+</package3d>
+<package3d name="E22-10" urn="urn:adsk.eagle:package:25836/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 22.86 mm, diameter 10 mm</description>
+</package3d>
+<package3d name="E22-6" urn="urn:adsk.eagle:package:25838/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 22.86 mm, diameter 6 mm</description>
+</package3d>
+<package3d name="E22-9" urn="urn:adsk.eagle:package:25837/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 22.86 mm, diameter 9 mm</description>
+</package3d>
+<package3d name="E25-10" urn="urn:adsk.eagle:package:25844/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 25.4 mm, diameter 10 mm</description>
+</package3d>
+<package3d name="E25-9" urn="urn:adsk.eagle:package:25843/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 25.4 mm, diameter 9 mm</description>
+</package3d>
+<package3d name="E3,5-10" urn="urn:adsk.eagle:package:25839/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 3.5 mm, diameter 10 mm</description>
+</package3d>
+<package3d name="E30-10" urn="urn:adsk.eagle:package:25848/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 30.48 mm, diameter 10 mm</description>
+</package3d>
+<package3d name="E30-12" urn="urn:adsk.eagle:package:25846/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 30.48 mm, diameter 12 mm</description>
+</package3d>
+<package3d name="E30-16" urn="urn:adsk.eagle:package:25847/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 30.48 mm, diameter 16 mm</description>
+</package3d>
+<package3d name="E35-12" urn="urn:adsk.eagle:package:25845/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 35.56 mm, diameter 12 mm</description>
+</package3d>
+<package3d name="E35-14" urn="urn:adsk.eagle:package:25849/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 30.48 mm, diameter 14 mm</description>
+</package3d>
+<package3d name="E35-16" urn="urn:adsk.eagle:package:25861/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 30.48 mm, diameter 16 mm</description>
+</package3d>
+<package3d name="E35-18" urn="urn:adsk.eagle:package:25851/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 30.48 mm, diameter 18 mm</description>
+</package3d>
+<package3d name="E45-16" urn="urn:adsk.eagle:package:25850/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 45.72 mm, diameter 16 mm</description>
+</package3d>
+<package3d name="E45-18" urn="urn:adsk.eagle:package:25857/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 45.72 mm, diameter 18 mm</description>
+</package3d>
+<package3d name="E45-21" urn="urn:adsk.eagle:package:25852/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 45.72 mm, diameter 21 mm</description>
+</package3d>
+<package3d name="E45-22" urn="urn:adsk.eagle:package:25853/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 45.72 mm, diameter 22 mm</description>
+</package3d>
+<package3d name="E45-25" urn="urn:adsk.eagle:package:25856/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 45.72 mm, diameter 25 mm</description>
+</package3d>
+<package3d name="E5-10,5" urn="urn:adsk.eagle:package:25854/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 5.08 mm, diameter 10.5 mm</description>
+</package3d>
+<package3d name="E5-13" urn="urn:adsk.eagle:package:25855/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 5.08 mm, diameter 13 mm</description>
+</package3d>
+<package3d name="E5-4" urn="urn:adsk.eagle:package:25859/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 5.05 mm, diameter 4 mm</description>
+</package3d>
+<package3d name="E5-5" urn="urn:adsk.eagle:package:25868/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 5.08 mm, diameter 5 mm</description>
+</package3d>
+<package3d name="E5-6" urn="urn:adsk.eagle:package:25858/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 5.08 mm, diameter 6 mm</description>
+</package3d>
+<package3d name="E5-8,5" urn="urn:adsk.eagle:package:25860/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 5.08 mm, diameter 8.5 mm</description>
+</package3d>
+<package3d name="E5R" urn="urn:adsk.eagle:package:25866/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 5.08 mm, diameter 9 mm</description>
+</package3d>
+<package3d name="E50-25" urn="urn:adsk.eagle:package:25862/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 50 mm, diameter 25 mm</description>
+</package3d>
+<package3d name="E50-30" urn="urn:adsk.eagle:package:25863/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 50 mm, diameter 30 mm</description>
+</package3d>
+<package3d name="E55-25" urn="urn:adsk.eagle:package:25865/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 55 mm, diameter 25 mm</description>
+</package3d>
+<package3d name="E55-30" urn="urn:adsk.eagle:package:25864/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 55 mm, diameter 30 mm</description>
+</package3d>
+<package3d name="E7,5-16" urn="urn:adsk.eagle:package:25867/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 7.62 mm, diameter 16 mm</description>
+</package3d>
+<package3d name="E7,5-18" urn="urn:adsk.eagle:package:25870/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+grid 7.62 mm, diameter 18 mm</description>
+</package3d>
+<package3d name="TT2D5L" urn="urn:adsk.eagle:package:25918/1" type="box" library_version="1">
+<description>ELECTROLYTIC CAPACITOR
+diameter 5 mm, grid 2.54 mm</description>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="CPOL-US">
+<symbol name="CPOL-US" urn="urn:adsk.eagle:symbol:25530/1" library_version="1">
 <wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202" cap="flat"/>
 <wire x1="-2.4669" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.376341" cap="flat"/>
 <text x="1.016" y="0.635" size="1.778" layer="95">&gt;NAME</text>
 <text x="1.016" y="-4.191" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="2.54" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<text x="0" y="-5.08" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
 <rectangle x1="-2.253" y1="0.668" x2="-1.364" y2="0.795" layer="94"/>
 <rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
 <pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<text x="0" y="2.54" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
-<text x="0" y="-5.08" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CPOL-US" prefix="C" uservalue="yes">
+<deviceset name="CPOL-US" urn="urn:adsk.eagle:component:26214/1" prefix="C" uservalue="yes" library_version="1">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, American symbol</description>
 <gates>
 <gate name="G$1" symbol="CPOL-US" x="0" y="0"/>
@@ -6504,6 +7087,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="-"/>
 <connect gate="G$1" pin="-" pad="+"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25799/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6513,6 +7099,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="-"/>
 <connect gate="G$1" pin="-" pad="+"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25815/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6522,6 +7111,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="-"/>
 <connect gate="G$1" pin="-" pad="+"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25795/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6531,6 +7123,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25791/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6540,6 +7135,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25796/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6549,6 +7147,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25794/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6558,6 +7159,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25789/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6567,6 +7171,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25806/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6576,6 +7183,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25816/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6585,6 +7195,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25798/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6594,6 +7207,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25805/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6603,6 +7219,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25801/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6612,6 +7231,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25810/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6621,6 +7243,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25814/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6630,6 +7255,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25793/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6639,6 +7267,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25790/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6648,6 +7279,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25817/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6657,6 +7291,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25792/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6666,6 +7303,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25797/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6675,6 +7315,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25800/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6684,6 +7327,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25809/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6693,6 +7339,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25808/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6702,6 +7351,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25811/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6711,6 +7363,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25802/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6720,6 +7375,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25813/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6729,6 +7387,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25834/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6738,6 +7399,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25804/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6747,6 +7411,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25803/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6756,6 +7423,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25812/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6765,6 +7435,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25807/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6774,6 +7447,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25820/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6783,6 +7459,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25818/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6792,6 +7471,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25819/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6801,6 +7483,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25824/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6810,6 +7495,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25821/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6819,6 +7507,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25822/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6828,6 +7519,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25823/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6837,6 +7531,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25826/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6846,6 +7543,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25874/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6855,6 +7555,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25873/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6864,6 +7567,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25875/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6873,6 +7579,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25876/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6882,6 +7591,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25877/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6891,6 +7603,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25880/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6900,6 +7615,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25884/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6909,6 +7627,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25882/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6918,6 +7639,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25881/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6927,6 +7651,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25883/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6936,6 +7663,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25886/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6945,6 +7675,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25885/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6954,6 +7687,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25887/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6963,6 +7699,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25888/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6972,6 +7711,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25891/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6981,6 +7723,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25890/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6990,6 +7735,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25889/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6999,6 +7747,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25892/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7008,6 +7759,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25893/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7017,6 +7771,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25894/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7026,6 +7783,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25895/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7035,6 +7795,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25897/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7044,6 +7807,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25896/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7053,6 +7819,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25899/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7062,6 +7831,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25898/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7071,6 +7843,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25908/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7080,6 +7855,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25903/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7089,6 +7867,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25900/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7098,6 +7879,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25901/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7107,6 +7891,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25902/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7116,6 +7903,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25905/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7125,6 +7915,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25904/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7134,6 +7927,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25906/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7143,6 +7939,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25909/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7152,6 +7951,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25907/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7161,6 +7963,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25910/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7170,6 +7975,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25912/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7179,6 +7987,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25911/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7188,6 +7999,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25913/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7197,6 +8011,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25914/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7206,6 +8023,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25915/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7215,6 +8035,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25916/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7224,6 +8047,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25917/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7233,6 +8059,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25825/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7242,6 +8071,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25869/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7251,6 +8083,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25879/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7260,6 +8095,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25878/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7269,6 +8107,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25871/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7278,6 +8119,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25872/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7287,6 +8131,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25829/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7296,6 +8143,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25840/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7305,6 +8155,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25828/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7314,6 +8167,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25924/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7323,6 +8179,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25835/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7332,6 +8191,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25833/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7341,6 +8203,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25831/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7350,6 +8215,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25841/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7359,6 +8227,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25827/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7368,6 +8239,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25832/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7377,6 +8251,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25830/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7386,6 +8263,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25836/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7395,6 +8275,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25838/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7404,6 +8287,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25837/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7413,6 +8299,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25844/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7422,6 +8311,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25843/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7431,6 +8323,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25839/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7440,6 +8335,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25842/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7449,6 +8347,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25848/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7458,6 +8359,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25846/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7467,6 +8371,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25847/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7476,6 +8383,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25845/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7485,6 +8395,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25849/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7494,6 +8407,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25861/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7503,6 +8419,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25851/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7512,6 +8431,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25850/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7521,6 +8443,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25857/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7530,6 +8455,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25852/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7539,6 +8467,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25853/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7548,6 +8479,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25856/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7557,6 +8491,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25854/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7566,6 +8503,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25855/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7575,6 +8515,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25859/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7584,6 +8527,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25868/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7593,6 +8539,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25858/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7602,6 +8551,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25860/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7611,6 +8563,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25866/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7620,6 +8575,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25862/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7629,6 +8587,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25863/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7638,6 +8599,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25865/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7647,6 +8611,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25864/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7656,6 +8623,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25867/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7665,6 +8635,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25870/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7674,6 +8647,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25918/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7692,27 +8668,28 @@ diameter 5 mm, grid 2.54 mm</description>
 </class>
 </classes>
 <parts>
-<part name="GND1" library="supply1" deviceset="GND" device="" value="GND"/>
-<part name="GND2" library="supply1" deviceset="GND" device="" value="GND"/>
-<part name="GND3" library="supply1" deviceset="GND" device="" value="GND"/>
-<part name="GND4" library="supply1" deviceset="GND" device="" value="GND"/>
-<part name="STEPPER" library="con-lstb" deviceset="MA04-1" device="" value="28STH32"/>
-<part name="SERVO" library="con-lstb" deviceset="MA04-1" device="" value="S1213"/>
-<part name="GND6" library="supply1" deviceset="GND" device="" value="GND"/>
-<part name="ENCODER" library="con-lstb" deviceset="MA05-1" device="" value="HKT22"/>
-<part name="GND7" library="supply1" deviceset="GND" device="" value="GND"/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND"/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND"/>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND"/>
+<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND"/>
+<part name="STEPPER" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1" value="28STH32"/>
+<part name="SERVO" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1" value="S1213"/>
+<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND"/>
+<part name="ENCODER" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA05-1" device="" package3d_urn="urn:adsk.eagle:package:8332/1" value="HKT22"/>
+<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND"/>
 <part name="ARDUINO" library="ArduinoNanoV30" deviceset="ARDUINO_NANO" device="" value="Arduino Nano V3.0 Module"/>
-<part name="C1" library="resistor" deviceset="CPOL-US" device="E3.5-8" value="100uF"/>
-<part name="P+1" library="supply1" deviceset="+5V" device=""/>
-<part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="GND8" library="supply1" deviceset="GND" device="" value="GND"/>
-<part name="P+3" library="supply1" deviceset="VCC" device=""/>
-<part name="P+4" library="supply1" deviceset="VCC" device=""/>
+<part name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="CPOL-US" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:25842/1" value="100uF"/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND"/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="OKI-78SR" library="carrilib" deviceset="DCDC_OKI-78SR" device="" value="5/1.5-W36H-C"/>
 <part name="A4988" library="RepRapjr" deviceset="A4988BREAKOUT" device="" value="StepStick"/>
 <part name="DISPLAY" library="SparkFun-Connectors" deviceset="I2C_STANDARD" device="" value="I2C"/>
-<part name="GND9" library="supply1" deviceset="GND" device="" value="GND"/>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND"/>
 </parts>
 <sheets>
 <sheet>
@@ -7766,6 +8743,7 @@ diameter 5 mm, grid 2.54 mm</description>
 </instance>
 <instance part="GND9" gate="1" x="83.82" y="124.46" rot="R180"/>
 <instance part="J1" gate="G$1" x="-27.94" y="86.36" rot="R90"/>
+<instance part="GND10" gate="1" x="-20.32" y="81.28"/>
 </instances>
 <busses>
 </busses>
@@ -7793,12 +8771,7 @@ diameter 5 mm, grid 2.54 mm</description>
 <pinref part="C1" gate="G$1" pin="-"/>
 <wire x1="-2.54" y1="83.82" x2="-2.54" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="81.28" x2="-2.54" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="81.28" x2="-2.54" y2="81.28" width="0.1524" layer="91"/>
-<junction x="-2.54" y="81.28"/>
 <pinref part="OKI-78SR" gate="G$1" pin="GND"/>
-<wire x1="-20.32" y1="81.28" x2="-20.32" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="-"/>
-<wire x1="-20.32" y1="86.36" x2="-22.86" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -7835,6 +8808,11 @@ diameter 5 mm, grid 2.54 mm</description>
 <wire x1="88.9" y1="119.38" x2="86.36" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="86.36" y1="119.38" x2="83.82" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="GND"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="-22.86" y1="86.36" x2="-20.32" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="2A_RED" class="0">
@@ -8029,6 +9007,21 @@ diameter 5 mm, grid 2.54 mm</description>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
+</note>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
