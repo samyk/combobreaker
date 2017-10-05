@@ -9,34 +9,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,19 +54,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -198,23 +198,29 @@
 <wire x1="25.4" y1="3.81" x2="25.4" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="25.4" y1="-3.81" x2="25.4" y2="-8.89" width="0.127" layer="21"/>
 <wire x1="25.4" y1="-8.89" x2="-17.78" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="-17.78" y1="-8.89" x2="-17.78" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-17.78" y1="2.54" x2="-17.78" y2="8.89" width="0.127" layer="21"/>
-<wire x1="-17.78" y1="2.54" x2="-19.05" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="2.54" x2="-19.05" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="2.54" x2="-17.78" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="-2.54" x2="-17.78" y2="-2.54" width="0.127" layer="21"/>
-<text x="-11.43" y="-0.635" size="1.27" layer="21" font="vector">&gt;NAME</text>
-<text x="-11.43" y="-1.905" size="0.762" layer="21" font="vector">&gt;VALUE</text>
+<wire x1="-17.78" y1="-8.89" x2="-17.78" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="-3.81" x2="-18.796" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-18.796" y1="3.81" x2="-17.78" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="3.81" x2="-17.78" y2="8.89" width="0.127" layer="21"/>
+<wire x1="-18.796" y1="3.81" x2="-19.05" y2="3.556" width="0.127" layer="21" curve="90"/>
+<wire x1="-18.796" y1="-3.81" x2="-19.05" y2="-3.556" width="0.127" layer="21" curve="-90"/>
+<wire x1="-19.05" y1="-3.556" x2="-19.05" y2="3.556" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="3.556" x2="-10.16" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-3.556" x2="-10.414" y2="-3.81" width="0.127" layer="21" curve="-90"/>
+<wire x1="-10.414" y1="-3.81" x2="-17.78" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="3.556" x2="-10.414" y2="3.81" width="0.127" layer="21" curve="90"/>
+<wire x1="-10.414" y1="3.81" x2="-17.78" y2="3.81" width="0.127" layer="21"/>
+<text x="-8.89" y="0.381" size="1.27" layer="21" font="vector">&gt;NAME</text>
+<text x="-8.763" y="-1.27" size="0.762" layer="21" font="vector">&gt;VALUE</text>
 <text x="8.89" y="0" size="0.762" layer="21" font="vector" rot="SR90" align="center">RESET</text>
 <text x="-13.97" y="-6.35" size="0.508" layer="21" font="vector">1</text>
-<text x="-15.24" y="0" size="0.6096" layer="21" font="vector" rot="R270" align="center">Mini-B
+<text x="-13.97" y="0" size="0.6096" layer="21" font="vector" rot="R270" align="center">Mini-B
 USB</text>
-<wire x1="-17.78" y1="-2.54" x2="-19.05" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="25.4" y1="3.81" x2="20.32" y2="3.81" width="0.127" layer="21"/>
-<wire x1="20.32" y1="3.81" x2="20.32" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="20.32" y1="-3.81" x2="25.4" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="25.4" y1="3.81" x2="20.574" y2="3.81" width="0.127" layer="21"/>
+<wire x1="20.574" y1="3.81" x2="20.32" y2="3.556" width="0.127" layer="21" curve="90"/>
+<wire x1="20.32" y1="3.556" x2="20.32" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="20.32" y1="-3.556" x2="20.574" y2="-3.81" width="0.127" layer="21" curve="90"/>
+<wire x1="20.574" y1="-3.81" x2="25.4" y2="-3.81" width="0.127" layer="21"/>
 <circle x="21.59" y="2.54" radius="0.889" width="0.127" layer="21"/>
 <circle x="24.13" y="0" radius="0.889" width="0.127" layer="21"/>
 <circle x="21.59" y="0" radius="0.889" width="0.127" layer="21"/>
@@ -240,10 +246,14 @@ Thanks you!!!</text>
 <wire x1="22.86" y1="-7.62" x2="25.4" y2="-7.62" width="0.015875" layer="49"/>
 <wire x1="24.13" y1="6.35" x2="24.13" y2="8.89" width="0.015875" layer="49"/>
 <wire x1="22.86" y1="7.62" x2="25.4" y2="7.62" width="0.015875" layer="49"/>
-<wire x1="7.62" y1="-2.54" x2="10.16" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-2.54" x2="10.16" y2="2.54" width="0.127" layer="21"/>
-<wire x1="10.16" y1="2.54" x2="7.62" y2="2.54" width="0.127" layer="21"/>
-<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="7.62" y1="2.159" x2="7.62" y2="-2.159" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-2.159" x2="7.874" y2="-2.54" width="0.127" layer="21" curve="90"/>
+<wire x1="7.874" y1="-2.54" x2="9.8533875" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="9.8533875" y1="-2.54" x2="10.16" y2="-2.2333875" width="0.127" layer="21" curve="90"/>
+<wire x1="10.16" y1="-2.2333875" x2="10.16" y2="2.159" width="0.127" layer="21"/>
+<wire x1="10.16" y1="2.159" x2="9.779" y2="2.54" width="0.127" layer="21" curve="90"/>
+<wire x1="9.779" y1="2.54" x2="8.001" y2="2.54" width="0.127" layer="21"/>
+<wire x1="8.001" y1="2.54" x2="7.62" y2="2.159" width="0.127" layer="21" curve="90"/>
 <pad name="31" x="21.59" y="-2.54" drill="0.9"/>
 <circle x="21.59" y="-2.54" radius="0.889" width="0.127" layer="21"/>
 <pad name="32" x="21.59" y="0" drill="0.9"/>
@@ -652,9 +662,9 @@ OKI-78SR-5/1.5W36H</description>
 <wire x1="2.54" y1="-7.62" x2="-2.54" y2="-7.62" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="-7.62" x2="-5.08" y2="-5.08" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="-5.08" x2="-5.08" y2="0" width="0.127" layer="21"/>
-<pad name="3" x="-2.54" y="-10.16" drill="1.016"/>
-<pad name="2" x="0" y="-10.16" drill="1.016"/>
-<pad name="1" x="2.54" y="-10.16" drill="1.016"/>
+<pad name="3" x="-2.54" y="-10.16" drill="0.9"/>
+<pad name="2" x="0" y="-10.16" drill="0.9"/>
+<pad name="1" x="2.54" y="-10.16" drill="0.9"/>
 <text x="-0.381" y="-6.731" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="0.889" y="-6.731" size="0.8128" layer="25" rot="R90">&gt;VALUE</text>
 </package>
@@ -840,7 +850,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="3.2" y1="-4.5" x2="4" y2="-4.5" width="0.2032" layer="21"/>
 <wire x1="4" y1="-4.5" x2="4" y2="-1" width="0.2032" layer="21"/>
 <wire x1="2" y1="3" x2="-2" y2="3" width="0.2032" layer="21"/>
-<smd name="1" x="-1" y="-3.7" dx="1" dy="4.6" layer="1"/>
+<smd name="GND" x="-1" y="-3.7" dx="1" dy="4.6" layer="1"/>
 <smd name="2" x="1" y="-3.7" dx="1" dy="4.6" layer="1"/>
 <smd name="NC1" x="-3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
 <smd name="NC2" x="3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
@@ -882,10 +892,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="8.89" y1="0.635" x2="8.89" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="1" x="0" y="0" drill="0.9" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="0.9" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="0.9" rot="R90"/>
+<pad name="4" x="7.62" y="0" drill="0.9" rot="R90"/>
 <rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
@@ -913,30 +923,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X04_1MM_RA">
-<description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.254" layer="21"/>
-<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.254" layer="21"/>
-<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.254" layer="21"/>
-<circle x="-2.5" y="0.3" radius="0.1414" width="0.4" layer="21"/>
-<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="JST_2MM_MALE">
@@ -952,7 +938,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="4.064" y1="0" x2="-1.524" y2="0" width="0.254" layer="94"/>
 <wire x1="-1.524" y1="0" x2="-1.524" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-2.54" x2="-1.524" y2="-2.54" width="0.254" layer="94"/>
-<pin name="GND" x="0" y="-5.08" visible="off" length="middle" rot="R90"/>
+<pin name="-" x="0" y="-5.08" visible="off" length="middle" rot="R90"/>
 <pin name="+" x="2.54" y="-5.08" visible="off" length="middle" rot="R90"/>
 <pin name="PAD2" x="5.08" y="2.54" visible="off" length="point" rot="R90"/>
 <pin name="PAD1" x="-2.54" y="2.54" visible="off" length="point" rot="R90"/>
@@ -1016,7 +1002,7 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <device name="" package="JST-2-SMD">
 <connects>
 <connect gate="G$1" pin="+" pad="2"/>
-<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="-" pad="GND"/>
 <connect gate="G$1" pin="PAD1" pad="NC1"/>
 <connect gate="G$1" pin="PAD2" pad="NC2"/>
 </connects>
@@ -1064,20 +1050,6 @@ to be daisy chained easily.&lt;/p&gt;
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-<device name="QWIIC" package="1X04_1MM_RA">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-13694" constant="no"/>
-<attribute name="VALUE" value="Qwiic Right Angle" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -8492,12 +8464,14 @@ by exp-lbrs.ulp</description>
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="1" x="0" y="0" drill="0.9" shape="square" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="0.9" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="0.9" rot="R90"/>
+<pad name="4" x="7.62" y="0" drill="0.9" rot="R90"/>
 <text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.524" y="-1.524" size="0.6096" layer="27" font="vector" ratio="10">1</text>
+<text x="8.636" y="1.016" size="0.6096" layer="27" font="vector" ratio="10">4</text>
 </package>
 <package name="ADAFRUIT_1X04-3.5MM">
 <wire x1="-7" y1="3.4" x2="-7" y2="-2.5" width="0.127" layer="21"/>
@@ -8590,14 +8564,14 @@ by exp-lbrs.ulp</description>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<pad name="1" x="-5.08" y="0" drill="1.016" rot="R90"/>
-<pad name="2" x="-2.54" y="0" drill="1.016" rot="R90"/>
-<pad name="3" x="0" y="0" drill="1.016" rot="R90"/>
-<pad name="4" x="2.54" y="0" drill="1.016" rot="R90"/>
-<pad name="5" x="5.08" y="0" drill="1.016" rot="R90"/>
+<pad name="1" x="-5.08" y="0" drill="0.9" shape="square" rot="R90"/>
+<pad name="2" x="-2.54" y="0" drill="0.9" rot="R90"/>
+<pad name="3" x="0" y="0" drill="0.9" rot="R90"/>
+<pad name="4" x="2.54" y="0" drill="0.9" rot="R90"/>
+<pad name="5" x="5.08" y="0" drill="0.9" rot="R90"/>
 <text x="-6.35" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.715" y="-2.921" size="1.27" layer="21" ratio="10">1</text>
-<text x="4.445" y="1.651" size="1.27" layer="21" ratio="10">5</text>
+<text x="-6.604" y="-1.651" size="0.6096" layer="21" font="vector" ratio="10">1</text>
+<text x="6.223" y="1.143" size="0.6096" layer="21" font="vector" ratio="10">5</text>
 <text x="-2.54" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
@@ -8836,7 +8810,7 @@ by exp-lbrs.ulp</description>
 <wire x1="-2.54" y1="83.82" x2="-2.54" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="81.28" x2="-2.54" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="OKI-78SR" gate="G$1" pin="GND"/>
-<pinref part="PWR" gate="G$1" pin="GND"/>
+<pinref part="PWR" gate="G$1" pin="-"/>
 <wire x1="-22.86" y1="86.36" x2="-20.32" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="86.36" x2="-20.32" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="81.28" x2="-2.54" y2="81.28" width="0.1524" layer="91"/>
