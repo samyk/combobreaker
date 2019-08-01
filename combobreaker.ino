@@ -45,15 +45,15 @@
 #define ENCODER_STEPS 1200 // 1200 per rotation
 
 // Stepper driver details (controls the dial)
-#define DIR_PIN  5 // 2
-#define STEP_PIN 6 // 3
-
+#define DIR_PIN 4
+#define STEP_PIN 5
 
 #define STEPS 200
 #define MICROSTEPS 8 // was 8 on easydriver
 
 // fastest (us) we can get stepper moving without skipping
-#define MIN_DELAY (1600 / MICROSTEPS) // was 200
+// #define MIN_DELAY (1600 / MICROSTEPS) // was 200
+#define MIN_DELAY 400
 
 // Number of digits on a Master combo lock
 #define DIGITS 40
@@ -359,6 +359,7 @@ void step(int steps)
   for (int i = 0; i < steps * MICROSTEPS; i++)
   {
     digitalWrite(STEP_PIN, LOW);
+    delayMicroseconds(MIN_DELAY);
     digitalWrite(STEP_PIN, HIGH);
     delayMicroseconds(MIN_DELAY);
   }
